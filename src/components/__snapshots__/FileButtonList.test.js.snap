@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileButtonList should match an empty snapshot 1`] = `<span />`;
+
+exports[`FileButtonList should match snapshot with files 1`] = `
+<span>
+  <a
+    className="btn btn-xs btn-default"
+    href="#"
+    onClick={[Function]}
+    title="file1.json"
+  >
+    1
+  </a>
+  <a
+    className="btn btn-xs btn-default"
+    href="#"
+    onClick={[Function]}
+    title="file2.json"
+  >
+    2
+  </a>
+</span>
+`;

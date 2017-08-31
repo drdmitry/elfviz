@@ -1,0 +1,6636 @@
+[
+  {
+    "number": "0",
+    "name": "<none>",
+    "type": "NULL",
+    "address": "0x0000000000000000",
+    "offset": "0x000000",
+    "size": 0,
+    "flags": ""
+  },
+  {
+    "number": "1",
+    "name": ".note.gnu.build-id",
+    "type": "NOTE",
+    "address": "0x0000000000000000",
+    "offset": "0x000040",
+    "size": 36,
+    "flags": "A"
+  },
+  {
+    "number": "2",
+    "name": ".text",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x000070",
+    "size": 46433,
+    "flags": "AX"
+  },
+  {
+    "number": "3",
+    "name": ".rela.text",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x0202f0",
+    "size": 35928,
+    "flags": "I"
+  },
+  {
+    "number": "4",
+    "name": ".text.unlikely",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x00b5d1",
+    "size": 0,
+    "flags": "AX"
+  },
+  {
+    "number": "5",
+    "name": ".init.text",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x00b5d1",
+    "size": 8,
+    "flags": "AX"
+  },
+  {
+    "number": "6",
+    "name": ".exit.text",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x00b5d9",
+    "size": 6,
+    "flags": "AX"
+  },
+  {
+    "number": "7",
+    "name": "__ksymtab",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x00b5e0",
+    "size": 272,
+    "flags": "A"
+  },
+  {
+    "number": "8",
+    "name": ".rela__ksymtab",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x028f48",
+    "size": 816,
+    "flags": "I"
+  },
+  {
+    "number": "9",
+    "name": "__kcrctab",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x00b6f0",
+    "size": 136,
+    "flags": "A"
+  },
+  {
+    "number": "10",
+    "name": ".rela__kcrctab",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x029278",
+    "size": 408,
+    "flags": "I"
+  },
+  {
+    "number": "11",
+    "name": ".rodata",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x00b780",
+    "size": 36320,
+    "flags": "A"
+  },
+  {
+    "number": "12",
+    "name": ".rela.rodata",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x029410",
+    "size": 43440,
+    "flags": "I"
+  },
+  {
+    "number": "13",
+    "name": ".rodata.str1.1",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x014560",
+    "size": 8818,
+    "flags": "AMS"
+  },
+  {
+    "number": "14",
+    "name": ".smp_locks",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x0167d4",
+    "size": 12,
+    "flags": "A"
+  },
+  {
+    "number": "15",
+    "name": ".rela.smp_locks",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x033dc0",
+    "size": 72,
+    "flags": "I"
+  },
+  {
+    "number": "16",
+    "name": ".rodata.str1.8",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x0167e0",
+    "size": 2471,
+    "flags": "AMS"
+  },
+  {
+    "number": "17",
+    "name": "__ksymtab_strings",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x017187",
+    "size": 323,
+    "flags": "A"
+  },
+  {
+    "number": "18",
+    "name": ".modinfo",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x0172d0",
+    "size": 444,
+    "flags": "A"
+  },
+  {
+    "number": "19",
+    "name": "__param",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x017490",
+    "size": 80,
+    "flags": "A"
+  },
+  {
+    "number": "20",
+    "name": ".rela__param",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x033e08",
+    "size": 192,
+    "flags": "I"
+  },
+  {
+    "number": "21",
+    "name": "__mcount_loc",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x0174e0",
+    "size": 2080,
+    "flags": "A"
+  },
+  {
+    "number": "22",
+    "name": ".rela__mcount_loc",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x033ec8",
+    "size": 6240,
+    "flags": "I"
+  },
+  {
+    "number": "23",
+    "name": ".parainstructions",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x017d00",
+    "size": 124,
+    "flags": "A"
+  },
+  {
+    "number": "24",
+    "name": ".rela.parainstructions",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x035728",
+    "size": 192,
+    "flags": "I"
+  },
+  {
+    "number": "25",
+    "name": "__versions",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x017d80",
+    "size": 3648,
+    "flags": "A"
+  },
+  {
+    "number": "26",
+    "name": ".data",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x018bc0",
+    "size": 1312,
+    "flags": "WA"
+  },
+  {
+    "number": "27",
+    "name": ".rela.data",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x0357e8",
+    "size": 2976,
+    "flags": "I"
+  },
+  {
+    "number": "28",
+    "name": "__verbose",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x0190e0",
+    "size": 120,
+    "flags": "WA"
+  },
+  {
+    "number": "29",
+    "name": ".rela__verbose",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x036388",
+    "size": 288,
+    "flags": "I"
+  },
+  {
+    "number": "30",
+    "name": ".gnu.linkonce.this_module",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x019180",
+    "size": 896,
+    "flags": "WA"
+  },
+  {
+    "number": "31",
+    "name": ".rela.gnu.linkonce.this_module",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x0364a8",
+    "size": 48,
+    "flags": "I"
+  },
+  {
+    "number": "32",
+    "name": ".bss",
+    "type": "NOBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x019500",
+    "size": 61,
+    "flags": "WA"
+  },
+  {
+    "number": "33",
+    "name": ".comment",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x019500",
+    "size": 212,
+    "flags": "MS"
+  },
+  {
+    "number": "34",
+    "name": ".note.GNU-stack",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x0195d4",
+    "size": 0,
+    "flags": ""
+  },
+  {
+    "number": "35",
+    "name": ".shstrtab",
+    "type": "STRTAB",
+    "address": "0x0000000000000000",
+    "offset": "0x0364d8",
+    "size": 362,
+    "flags": ""
+  },
+  {
+    "number": "36",
+    "name": ".symtab",
+    "type": "SYMTAB",
+    "address": "0x0000000000000000",
+    "offset": "0x0195d8",
+    "size": 15096,
+    "flags": "",
+    "symbols": [
+      {
+        "number": "0",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "1",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "2",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "3",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "13"
+      },
+      {
+        "number": "4",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "16"
+      },
+      {
+        "number": "5",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "6",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "7",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "28"
+      },
+      {
+        "number": "8",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "32"
+      },
+      {
+        "number": "9",
+        "name": "ac97_surround_jack_mode_get",
+        "value": "0x0000000000000000",
+        "size": 30,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "10",
+        "name": "ac97_surround_jack_mode_put",
+        "value": "0x0000000000000020",
+        "size": 70,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "11",
+        "name": "ac97_channel_mode_get",
+        "value": "0x0000000000000070",
+        "size": 30,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "12",
+        "name": "ac97_channel_mode_put",
+        "value": "0x0000000000000090",
+        "size": 84,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "13",
+        "name": "snd_ac97_ymf7x3_get_speaker",
+        "value": "0x00000000000000f0",
+        "size": 55,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "14",
+        "name": "snd_ac97_ymf7x3_spdif_source_get",
+        "value": "0x0000000000000130",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "15",
+        "name": "patch_yamaha_ymf743",
+        "value": "0x0000000000000160",
+        "size": 47,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "16",
+        "name": "patch_yamaha_ymf743_ops",
+        "value": "0x00000000000088c0",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "17",
+        "name": "snd_ac97_ymf753_spdif_output_pin_get",
+        "value": "0x0000000000000190",
+        "size": 48,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "18",
+        "name": "patch_yamaha_ymf753",
+        "value": "0x00000000000001c0",
+        "size": 29,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "19",
+        "name": "patch_yamaha_ymf753_ops",
+        "value": "0x0000000000008780",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "20",
+        "name": "patch_wolfson03",
+        "value": "0x00000000000001e0",
+        "size": 20,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "21",
+        "name": "patch_wolfson_wm9703_ops",
+        "value": "0x00000000000086a0",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "22",
+        "name": "patch_wolfson04",
+        "value": "0x0000000000000200",
+        "size": 20,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "23",
+        "name": "patch_wolfson_wm9704_ops",
+        "value": "0x0000000000008480",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "24",
+        "name": "patch_wolfson05",
+        "value": "0x0000000000000220",
+        "size": 30,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "25",
+        "name": "patch_wolfson11",
+        "value": "0x0000000000000240",
+        "size": 30,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "26",
+        "name": "patch_wolfson_wm9711_ops",
+        "value": "0x0000000000006fa0",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "27",
+        "name": "patch_sigmatel_stac9700",
+        "value": "0x0000000000000260",
+        "size": 20,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "28",
+        "name": "patch_sigmatel_stac9700_ops",
+        "value": "0x0000000000005380",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "29",
+        "name": "snd_ac97_stac9758_output_jack_get",
+        "value": "0x0000000000000280",
+        "size": 57,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "30",
+        "name": "snd_ac97_stac9758_input_jack_get",
+        "value": "0x00000000000002c0",
+        "size": 39,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "31",
+        "name": "snd_ac97_stac9758_phonesel_get",
+        "value": "0x00000000000002f0",
+        "size": 33,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "32",
+        "name": "patch_conexant",
+        "value": "0x0000000000000320",
+        "size": 45,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "33",
+        "name": "patch_conexant_ops",
+        "value": "0x0000000000004e00",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "34",
+        "name": "snd_ac97_ad198x_spdif_source_get",
+        "value": "0x0000000000000350",
+        "size": 37,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "35",
+        "name": "snd_ac97_ad1888_lohpsel_get",
+        "value": "0x0000000000000380",
+        "size": 62,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "36",
+        "name": "snd_ac97_ad1888_downmix_get",
+        "value": "0x00000000000003c0",
+        "size": 56,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "37",
+        "name": "snd_ac97_ad1985_vrefout_get",
+        "value": "0x0000000000000400",
+        "size": 39,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "38",
+        "name": "reg2ctrl.35068",
+        "value": "0x0000000000000200",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "39",
+        "name": "snd_ac97_ad1986_lososel_get",
+        "value": "0x0000000000000430",
+        "size": 38,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "40",
+        "name": "snd_ac97_ad1986_spread_get",
+        "value": "0x0000000000000460",
+        "size": 38,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "41",
+        "name": "snd_ac97_ad1986_miclisel_get",
+        "value": "0x0000000000000490",
+        "size": 31,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "42",
+        "name": "snd_ac97_ad1986_miclisel_put",
+        "value": "0x00000000000004b0",
+        "size": 70,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "43",
+        "name": "snd_ac97_ad1986_vrefout_get",
+        "value": "0x0000000000000500",
+        "size": 59,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "44",
+        "name": "alc655_iec958_route_get",
+        "value": "0x0000000000000540",
+        "size": 65,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "45",
+        "name": "patch_aztech_azf3328",
+        "value": "0x0000000000000590",
+        "size": 20,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "46",
+        "name": "patch_aztech_azf3328_ops",
+        "value": "0x0000000000003880",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "47",
+        "name": "snd_ac97_cmedia_spdif_playback_source_get",
+        "value": "0x00000000000005b0",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "48",
+        "name": "cm9761_spdif_out_source_get",
+        "value": "0x00000000000005e0",
+        "size": 56,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "49",
+        "name": "patch_vt1613",
+        "value": "0x0000000000000620",
+        "size": 38,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "50",
+        "name": "patch_vt1613_ops",
+        "value": "0x0000000000003080",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "51",
+        "name": "patch_vt1616",
+        "value": "0x0000000000000650",
+        "size": 20,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "52",
+        "name": "patch_vt1616_ops",
+        "value": "0x0000000000002e80",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "53",
+        "name": "patch_lm4550",
+        "value": "0x0000000000000670",
+        "size": 24,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "54",
+        "name": "lm4550_restbl",
+        "value": "0x00000000000000c0",
+        "size": 52,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "55",
+        "name": "snd_ac97_valid_reg",
+        "value": "0x0000000000000690",
+        "size": 254,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "56",
+        "name": "snd_ac97_vt1618_aux_get",
+        "value": "0x0000000000000850",
+        "size": 44,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "57",
+        "name": "snd_ac97_vt1617a_smart51_get",
+        "value": "0x0000000000000880",
+        "size": 78,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "58",
+        "name": "snd_ac97_info_volsw",
+        "value": "0x00000000000008d0",
+        "size": 85,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "59",
+        "name": "snd_ac97_spdif_mask_info",
+        "value": "0x0000000000000930",
+        "size": 27,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "60",
+        "name": "snd_ac97_spdif_cmask_get",
+        "value": "0x0000000000000950",
+        "size": 25,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "61",
+        "name": "snd_ac97_spdif_pmask_get",
+        "value": "0x0000000000000970",
+        "size": 17,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "62",
+        "name": "snd_ac97_ad18xx_pcm_info_bits",
+        "value": "0x0000000000000990",
+        "size": 111,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "63",
+        "name": "snd_ac97_ad18xx_pcm_get_bits",
+        "value": "0x0000000000000a00",
+        "size": 118,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "64",
+        "name": "snd_ac97_ad18xx_pcm_info_volume",
+        "value": "0x0000000000000a80",
+        "size": 43,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "65",
+        "name": "snd_ac97_codec_ids",
+        "value": "0x00000000000012a0",
+        "size": 4120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "66",
+        "name": "ac97_device_release",
+        "value": "0x0000000000000b10",
+        "size": 11,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "67",
+        "name": "snd_ac97_spdif_default_get",
+        "value": "0x0000000000000b20",
+        "size": 102,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "68",
+        "name": "snd_ac97_ad18xx_pcm_get_volume",
+        "value": "0x0000000000000b90",
+        "size": 103,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "69",
+        "name": "snd_ac97_try_bit",
+        "value": "0x0000000000000c80",
+        "size": 115,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "70",
+        "name": "patch_sigmatel_stac9756",
+        "value": "0x0000000000000d00",
+        "size": 106,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "71",
+        "name": "patch_sigmatel_stac9744",
+        "value": "0x0000000000000d70",
+        "size": 16,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "72",
+        "name": "patch_sigmatel_stac9721",
+        "value": "0x0000000000000d80",
+        "size": 127,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "73",
+        "name": "patch_sigmatel_stac9708",
+        "value": "0x0000000000000e00",
+        "size": 229,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "74",
+        "name": "patch_sigmatel_stac9708_ops",
+        "value": "0x00000000000052e0",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "75",
+        "name": "patch_wolfson13",
+        "value": "0x0000000000000ef0",
+        "size": 90,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "76",
+        "name": "patch_wolfson_wm9713_ops",
+        "value": "0x0000000000005520",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "77",
+        "name": "patch_wolfson_wm9713_resume",
+        "value": "0x0000000000000f50",
+        "size": 64,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "78",
+        "name": "patch_wolfson_wm9713_suspend",
+        "value": "0x0000000000000f90",
+        "size": 49,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "79",
+        "name": "snd_ac97_vt1617a_smart51_put",
+        "value": "0x0000000000000fd0",
+        "size": 116,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "80",
+        "name": "patch_tritech_tr28028",
+        "value": "0x0000000000001050",
+        "size": 78,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "81",
+        "name": "mpatch_si3036",
+        "value": "0x00000000000010a0",
+        "size": 55,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "82",
+        "name": "patch_si3036_ops",
+        "value": "0x0000000000002840",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "83",
+        "name": "patch_ucb1400",
+        "value": "0x00000000000010e0",
+        "size": 58,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "84",
+        "name": "patch_ucb1400_ops",
+        "value": "0x0000000000002700",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "85",
+        "name": "patch_it2646",
+        "value": "0x0000000000001120",
+        "size": 58,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "86",
+        "name": "patch_it2646_ops",
+        "value": "0x00000000000028e0",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "87",
+        "name": "patch_cirrus_spdif",
+        "value": "0x0000000000001160",
+        "size": 57,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "88",
+        "name": "patch_cirrus_ops",
+        "value": "0x0000000000004ea0",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "89",
+        "name": "patch_cirrus_cs4299",
+        "value": "0x00000000000011a0",
+        "size": 23,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "90",
+        "name": "patch_cm9761",
+        "value": "0x00000000000011c0",
+        "size": 323,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "91",
+        "name": "patch_cm9761_ops",
+        "value": "0x0000000000003280",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "92",
+        "name": "patch_cm9739",
+        "value": "0x0000000000001310",
+        "size": 331,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "93",
+        "name": "patch_cm9739_ops",
+        "value": "0x0000000000003520",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "94",
+        "name": "patch_cm9738",
+        "value": "0x0000000000001460",
+        "size": 45,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "95",
+        "name": "patch_cm9738_ops",
+        "value": "0x0000000000003740",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "96",
+        "name": "patch_alc650",
+        "value": "0x0000000000001490",
+        "size": 375,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "97",
+        "name": "patch_alc650_ops",
+        "value": "0x0000000000003c20",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "98",
+        "name": "patch_ad1819",
+        "value": "0x0000000000001610",
+        "size": 58,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "99",
+        "name": "ad1819_restbl",
+        "value": "0x0000000000004de0",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "100",
+        "name": "snd_ac97_test_rate",
+        "value": "0x0000000000001650",
+        "size": 112,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "101",
+        "name": "snd_ac97_try_volume_mix",
+        "value": "0x00000000000016c0",
+        "size": 311,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "102",
+        "name": "snd_ac97_ymf7x3_put_speaker",
+        "value": "0x00000000000018c0",
+        "size": 51,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "103",
+        "name": "snd_ac97_restore_status",
+        "value": "0x0000000000001900",
+        "size": 99,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "104",
+        "name": "set_ctl_name",
+        "value": "0x0000000000001970",
+        "size": 41,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "105",
+        "name": "snd_ac97_stac9758_phonesel_info",
+        "value": "0x00000000000019a0",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "106",
+        "name": "texts.34803",
+        "value": "0x00000000000004a0",
+        "size": 24,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "107",
+        "name": "snd_ac97_stac9758_input_jack_info",
+        "value": "0x00000000000019d0",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "108",
+        "name": "texts.34785",
+        "value": "0x0000000000000460",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "109",
+        "name": "snd_ac97_stac9758_output_jack_info",
+        "value": "0x0000000000001a00",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "110",
+        "name": "texts.34766",
+        "value": "0x0000000000000420",
+        "size": 40,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "111",
+        "name": "snd_ac97_ymf753_spdif_output_pin_info",
+        "value": "0x0000000000001a30",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "112",
+        "name": "texts.34577",
+        "value": "0x0000000000000400",
+        "size": 24,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "113",
+        "name": "snd_ac97_ymf7x3_spdif_source_info",
+        "value": "0x0000000000001a60",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "114",
+        "name": "texts.34546",
+        "value": "0x00000000000003f0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "115",
+        "name": "snd_ac97_ymf7x3_info_speaker",
+        "value": "0x0000000000001a90",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "116",
+        "name": "texts.34528",
+        "value": "0x00000000000003d0",
+        "size": 24,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "117",
+        "name": "snd_ac97_info_enum_double",
+        "value": "0x0000000000001ac0",
+        "size": 51,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "118",
+        "name": "snd_ac97_vt1618_aux_info",
+        "value": "0x0000000000001b00",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "119",
+        "name": "txt_aux.35485",
+        "value": "0x00000000000003c0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "120",
+        "name": "snd_ac97_vt1618_UAJ_info",
+        "value": "0x0000000000001b30",
+        "size": 48,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "121",
+        "name": "vt1618_uaj",
+        "value": "0x0000000000000100",
+        "size": 120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "122",
+        "name": "snd_ac97_vt1617a_smart51_info",
+        "value": "0x0000000000001b60",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "123",
+        "name": "texts.35436",
+        "value": "0x0000000000000360",
+        "size": 64,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "124",
+        "name": "ac97_channel_mode_info",
+        "value": "0x0000000000001b90",
+        "size": 38,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "125",
+        "name": "texts.34491",
+        "value": "0x0000000000000340",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "126",
+        "name": "ac97_surround_jack_mode_info",
+        "value": "0x0000000000001bc0",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "127",
+        "name": "texts.34475",
+        "value": "0x0000000000000330",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "128",
+        "name": "cm9761_spdif_out_source_info",
+        "value": "0x0000000000001bf0",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "129",
+        "name": "texts.35339",
+        "value": "0x00000000000002d0",
+        "size": 24,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "130",
+        "name": "snd_ac97_cmedia_spdif_playback_source_info",
+        "value": "0x0000000000001c20",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "131",
+        "name": "texts.35292",
+        "value": "0x00000000000002c0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "132",
+        "name": "snd_ac97_ad198x_spdif_source_info",
+        "value": "0x0000000000001c50",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "133",
+        "name": "texts.34953",
+        "value": "0x0000000000000260",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "134",
+        "name": "snd_ac97_ad1985_vrefout_info",
+        "value": "0x0000000000001c80",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "135",
+        "name": "texts.35063",
+        "value": "0x0000000000000240",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "136",
+        "name": "snd_ac97_ad1888_downmix_info",
+        "value": "0x0000000000001cb0",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "137",
+        "name": "texts.35022",
+        "value": "0x0000000000000220",
+        "size": 24,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "138",
+        "name": "snd_ac97_cnew",
+        "value": "0x0000000000001ce0",
+        "size": 148,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "139",
+        "name": "patch_build_controls",
+        "value": "0x0000000000001d80",
+        "size": 101,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "140",
+        "name": "patch_sigmatel_stac97xx_specific",
+        "value": "0x0000000000001df0",
+        "size": 237,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "141",
+        "name": "snd_ac97_sigmatel_controls",
+        "value": "0x00000000000053c0",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "142",
+        "name": "snd_ac97_sigmatel_4speaker",
+        "value": "0x00000000000054c0",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "143",
+        "name": "snd_ac97_sigmatel_phaseinvert",
+        "value": "0x0000000000005460",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "144",
+        "name": "patch_yamaha_ymf753_post_spdif",
+        "value": "0x0000000000001ee0",
+        "size": 38,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "145",
+        "name": "snd_ac97_ymf753_controls_spdif",
+        "value": "0x00000000000087c0",
+        "size": 240,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "146",
+        "name": "patch_vt1618",
+        "value": "0x0000000000001f10",
+        "size": 28,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "147",
+        "name": "snd_ac97_controls_vt1618",
+        "value": "0x0000000000002ac0",
+        "size": 800,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "148",
+        "name": "patch_vt1617a",
+        "value": "0x0000000000001f30",
+        "size": 103,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "149",
+        "name": "snd_ac97_controls_vt1617a",
+        "value": "0x0000000000002de0",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "150",
+        "name": "patch_vt1613_specific",
+        "value": "0x0000000000001fa0",
+        "size": 28,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "151",
+        "name": "snd_ac97_controls_vt1613",
+        "value": "0x00000000000030c0",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "152",
+        "name": "patch_cm9761_post_spdif",
+        "value": "0x0000000000001fc0",
+        "size": 28,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "153",
+        "name": "snd_ac97_cm9761_controls_spdif",
+        "value": "0x00000000000032c0",
+        "size": 400,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "154",
+        "name": "patch_cm9761_specific",
+        "value": "0x0000000000001fe0",
+        "size": 28,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "155",
+        "name": "snd_ac97_cm9761_controls",
+        "value": "0x0000000000003480",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "156",
+        "name": "patch_cm9780_specific",
+        "value": "0x0000000000002000",
+        "size": 28,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "157",
+        "name": "cm9780_controls",
+        "value": "0x0000000000003160",
+        "size": 240,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "158",
+        "name": "patch_cm9739_post_spdif",
+        "value": "0x0000000000002020",
+        "size": 28,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "159",
+        "name": "snd_ac97_cm9739_controls_spdif",
+        "value": "0x0000000000003600",
+        "size": 320,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "160",
+        "name": "patch_cm9739_specific",
+        "value": "0x0000000000002040",
+        "size": 28,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "161",
+        "name": "snd_ac97_cm9739_controls",
+        "value": "0x0000000000003560",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "162",
+        "name": "patch_cm9738_specific",
+        "value": "0x0000000000002060",
+        "size": 28,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "163",
+        "name": "snd_ac97_cm9738_controls",
+        "value": "0x0000000000003780",
+        "size": 240,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "164",
+        "name": "patch_ad198x_post_spdif",
+        "value": "0x0000000000002080",
+        "size": 28,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "165",
+        "name": "snd_ac97_ad198x_spdif_source",
+        "value": "0x0000000000004b00",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "166",
+        "name": "patch_sigmatel_stac9700_3d",
+        "value": "0x00000000000020a0",
+        "size": 133,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "167",
+        "name": "snd_ac97_controls_3d",
+        "value": "0x0000000000000c80",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "168",
+        "name": "patch_sigmatel_stac9708_3d",
+        "value": "0x0000000000002130",
+        "size": 255,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "169",
+        "name": "patch_wolfson_wm9713_3d",
+        "value": "0x0000000000002230",
+        "size": 74,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "170",
+        "name": "wm13_snd_ac97_controls_3d",
+        "value": "0x0000000000005560",
+        "size": 320,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "171",
+        "name": "patch_wolfson_wm9703_specific",
+        "value": "0x0000000000002280",
+        "size": 92,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "172",
+        "name": "wm97xx_snd_ac97_controls",
+        "value": "0x00000000000086e0",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "173",
+        "name": "patch_wolfson_wm9704_specific",
+        "value": "0x00000000000022e0",
+        "size": 92,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "174",
+        "name": "wm9704_snd_ac97_controls",
+        "value": "0x00000000000084c0",
+        "size": 480,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "175",
+        "name": "patch_si3036_specific",
+        "value": "0x0000000000002340",
+        "size": 57,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "176",
+        "name": "snd_ac97_controls_si3036",
+        "value": "0x0000000000002880",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "177",
+        "name": "patch_ucb1400_specific",
+        "value": "0x0000000000002380",
+        "size": 74,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "178",
+        "name": "snd_ac97_controls_ucb1400",
+        "value": "0x0000000000002740",
+        "size": 240,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "179",
+        "name": "snd_ac97_cvol_new",
+        "value": "0x00000000000023d0",
+        "size": 409,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "180",
+        "name": "snd_ac97_get_volsw",
+        "value": "0x0000000000007b00",
+        "size": 403,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "181",
+        "name": "snd_ac97_put_volsw",
+        "value": "0x00000000000048a0",
+        "size": 367,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "182",
+        "name": "db_scale_5bit_12db_max",
+        "value": "0x00000000000005e0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "183",
+        "name": "db_scale_6bit",
+        "value": "0x00000000000005f0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "184",
+        "name": "db_scale_5bit",
+        "value": "0x0000000000000600",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "185",
+        "name": "db_scale_4bit",
+        "value": "0x0000000000000610",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "186",
+        "name": "snd_ac97_cmute_new_stereo",
+        "value": "0x0000000000002570",
+        "size": 501,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "187",
+        "name": "snd_ac97_bus_free",
+        "value": "0x0000000000002770",
+        "size": 62,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "188",
+        "name": "snd_ac97_bus_dev_free",
+        "value": "0x00000000000027b0",
+        "size": 20,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "189",
+        "name": "snd_ac97_powerdown",
+        "value": "0x00000000000027d0",
+        "size": 304,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "190",
+        "name": "power_save",
+        "value": "0x0000000000000038",
+        "size": 4,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "32"
+      },
+      {
+        "number": "191",
+        "name": "snd_ac97_free",
+        "value": "0x0000000000002940",
+        "size": 93,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "192",
+        "name": "snd_ac97_dev_free",
+        "value": "0x00000000000029a0",
+        "size": 33,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "193",
+        "name": "snd_ac97_dev_disconnect",
+        "value": "0x00000000000029d0",
+        "size": 42,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "194",
+        "name": "snd_ac97_dev_register",
+        "value": "0x0000000000002a00",
+        "size": 252,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "195",
+        "name": "descriptor.36513",
+        "value": "0x0000000000000000",
+        "size": 40,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "28"
+      },
+      {
+        "number": "196",
+        "name": "applicable_quirks",
+        "value": "0x00000000000004c0",
+        "size": 144,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "197",
+        "name": "patch_cm9780",
+        "value": "0x0000000000002d40",
+        "size": 76,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "198",
+        "name": "patch_cm9780_ops",
+        "value": "0x0000000000003120",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "199",
+        "name": "alc655_iec958_route_info",
+        "value": "0x0000000000002d90",
+        "size": 83,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "200",
+        "name": "texts_655.35215",
+        "value": "0x0000000000000280",
+        "size": 24,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "201",
+        "name": "texts_658.35216",
+        "value": "0x00000000000002a0",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "202",
+        "name": "patch_yamaha_ymf743_build_spdif",
+        "value": "0x0000000000002df0",
+        "size": 81,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "203",
+        "name": "snd_ac97_controls_spdif",
+        "value": "0x00000000000008a0",
+        "size": 400,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "204",
+        "name": "snd_ac97_yamaha_ymf743_controls_spdif",
+        "value": "0x0000000000008900",
+        "size": 240,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "205",
+        "name": "patch_it2646_specific",
+        "value": "0x0000000000002e50",
+        "size": 67,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "206",
+        "name": "snd_ac97_controls_it2646",
+        "value": "0x0000000000002a20",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "207",
+        "name": "snd_ac97_spdif_controls_it2646",
+        "value": "0x0000000000002920",
+        "size": 240,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "208",
+        "name": "patch_conexant_build_spdif",
+        "value": "0x0000000000002ea0",
+        "size": 97,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "209",
+        "name": "snd_ac97_conexant_controls_spdif",
+        "value": "0x0000000000004e40",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "210",
+        "name": "patch_cirrus_build_spdif",
+        "value": "0x0000000000002f10",
+        "size": 121,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "211",
+        "name": "snd_ac97_cirrus_controls_spdif",
+        "value": "0x0000000000004ee0",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "212",
+        "name": "patch_alc850_specific",
+        "value": "0x0000000000002f90",
+        "size": 97,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "213",
+        "name": "snd_ac97_controls_alc850",
+        "value": "0x0000000000003900",
+        "size": 320,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "214",
+        "name": "snd_ac97_spdif_controls_alc655",
+        "value": "0x0000000000003a80",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "215",
+        "name": "patch_ad1986_specific",
+        "value": "0x0000000000003000",
+        "size": 57,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "216",
+        "name": "snd_ac97_ad198x_2cmic",
+        "value": "0x00000000000049c0",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "217",
+        "name": "snd_ac97_ad1986_controls",
+        "value": "0x0000000000003fa0",
+        "size": 800,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "218",
+        "name": "patch_ad1981b_specific",
+        "value": "0x0000000000003040",
+        "size": 112,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "219",
+        "name": "ad1981_jacks_blacklist",
+        "value": "0x00000000000001c0",
+        "size": 52,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "220",
+        "name": "snd_ac97_ad1981x_jack_sense",
+        "value": "0x0000000000004a60",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "221",
+        "name": "patch_yamaha_ymf7x3_3d",
+        "value": "0x00000000000030b0",
+        "size": 178,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "222",
+        "name": "snd_ac97_ymf7x3_controls_speaker",
+        "value": "0x0000000000008a00",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "223",
+        "name": "patch_wolfson_wm9713_specific",
+        "value": "0x0000000000003170",
+        "size": 207,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "224",
+        "name": "wm13_snd_ac97_controls",
+        "value": "0x00000000000056a0",
+        "size": 6160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "225",
+        "name": "patch_wolfson_wm9711_specific",
+        "value": "0x0000000000003240",
+        "size": 186,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "226",
+        "name": "wm9711_snd_ac97_controls",
+        "value": "0x0000000000006fe0",
+        "size": 5120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "227",
+        "name": "snd_ac97_cmix_new_stereo",
+        "value": "0x0000000000003300",
+        "size": 566,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "228",
+        "name": "ctl_find.isra.22",
+        "value": "0x0000000000003540",
+        "size": 110,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "229",
+        "name": "snd_ac97_find_mixer_ctl.isra.26",
+        "value": "0x00000000000035b0",
+        "size": 110,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "230",
+        "name": "snd_ac97_add_vmaster",
+        "value": "0x0000000000003620",
+        "size": 197,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "231",
+        "name": "descriptor.35414",
+        "value": "0x0000000000000028",
+        "size": 40,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "28"
+      },
+      {
+        "number": "232",
+        "name": "reset_tlv.isra.27",
+        "value": "0x00000000000036f0",
+        "size": 133,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "233",
+        "name": "patch_ad1886_specific",
+        "value": "0x0000000000003780",
+        "size": 36,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "234",
+        "name": "db_scale_6bit_6db_max",
+        "value": "0x0000000000004be0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "235",
+        "name": "patch_alc650_specific",
+        "value": "0x00000000000037b0",
+        "size": 109,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "236",
+        "name": "snd_ac97_controls_alc650",
+        "value": "0x0000000000003d20",
+        "size": 560,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "237",
+        "name": "db_scale_5bit_3db_max",
+        "value": "0x0000000000003c60",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "238",
+        "name": "snd_ac97_spdif_controls_alc650",
+        "value": "0x0000000000003c80",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "239",
+        "name": "patch_ad1885_specific",
+        "value": "0x0000000000003820",
+        "size": 62,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "240",
+        "name": "snd_ac97_controls_ad1885",
+        "value": "0x0000000000004c00",
+        "size": 400,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "241",
+        "name": "snd_ac97_remove_ctl.isra.30",
+        "value": "0x0000000000003860",
+        "size": 110,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "242",
+        "name": "tune_hp_only",
+        "value": "0x00000000000038d0",
+        "size": 138,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "243",
+        "name": "bind_hp_volsw_put",
+        "value": "0x0000000000004a50",
+        "size": 78,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "244",
+        "name": "tune_ad_sharing",
+        "value": "0x0000000000003960",
+        "size": 96,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "245",
+        "name": "snd_ac97_swap_ctl.constprop.43",
+        "value": "0x00000000000039c0",
+        "size": 127,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "246",
+        "name": "tune_swap_surround",
+        "value": "0x0000000000003a40",
+        "size": 59,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "247",
+        "name": "ac97_reset_wait.constprop.46",
+        "value": "0x0000000000003a80",
+        "size": 214,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "248",
+        "name": "snd_ac97_rename_vol_ctl",
+        "value": "0x0000000000003b60",
+        "size": 112,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "249",
+        "name": "patch_sigmatel_stac9758_specific",
+        "value": "0x0000000000003bd0",
+        "size": 95,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "250",
+        "name": "snd_ac97_sigmatel_stac9758_controls",
+        "value": "0x0000000000004fc0",
+        "size": 800,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "251",
+        "name": "patch_ad1985_specific",
+        "value": "0x0000000000003c30",
+        "size": 101,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "252",
+        "name": "snd_ac97_ad1985_controls",
+        "value": "0x0000000000004300",
+        "size": 800,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "253",
+        "name": "patch_ad1888_specific",
+        "value": "0x0000000000003ca0",
+        "size": 86,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "254",
+        "name": "snd_ac97_ad1888_controls",
+        "value": "0x00000000000046a0",
+        "size": 720,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "255",
+        "name": "patch_ad1980_specific",
+        "value": "0x0000000000003d00",
+        "size": 45,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "256",
+        "name": "tune_swap_hp",
+        "value": "0x0000000000003d30",
+        "size": 92,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "257",
+        "name": "patch_aztech_azf3328_specific",
+        "value": "0x0000000000003d90",
+        "size": 159,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "258",
+        "name": "patch_sigmatel_stac9708_specific",
+        "value": "0x0000000000003e30",
+        "size": 88,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "259",
+        "name": "snd_ac97_stac9708_bias_control",
+        "value": "0x0000000000005320",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "260",
+        "name": "patch_vt1616_specific",
+        "value": "0x0000000000003e90",
+        "size": 209,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "261",
+        "name": "snd_ac97_controls_vt1616",
+        "value": "0x0000000000002f40",
+        "size": 320,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "262",
+        "name": "slave_vols_vt1616",
+        "value": "0x0000000000002f00",
+        "size": 40,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "263",
+        "name": "slave_sws_vt1616",
+        "value": "0x0000000000002ec0",
+        "size": 40,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "264",
+        "name": "patch_ad1981a_specific",
+        "value": "0x0000000000003f70",
+        "size": 82,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "265",
+        "name": "dev_ops.36213",
+        "value": "0x0000000000000020",
+        "size": 24,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "266",
+        "name": "patch_alc655_specific",
+        "value": "0x00000000000040a0",
+        "size": 97,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "267",
+        "name": "snd_ac97_controls_alc655",
+        "value": "0x0000000000003b20",
+        "size": 240,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "268",
+        "name": "snd_ac97_ad18xx_update_pcm_bits",
+        "value": "0x0000000000004110",
+        "size": 310,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "269",
+        "name": "snd_ac97_ad18xx_pcm_put_bits",
+        "value": "0x0000000000004250",
+        "size": 151,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "270",
+        "name": "snd_ac97_ad18xx_pcm_put_volume",
+        "value": "0x00000000000042f0",
+        "size": 59,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "271",
+        "name": "snd_ac97_get_enum_double",
+        "value": "0x0000000000004330",
+        "size": 194,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "272",
+        "name": "patch_sigmatel_stac9758",
+        "value": "0x0000000000004520",
+        "size": 135,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "273",
+        "name": "def_regs.34827",
+        "value": "0x0000000000000040",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "274",
+        "name": "m675_regs.34828",
+        "value": "0x0000000000000038",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "275",
+        "name": "patch_sigmatel_stac9758_ops",
+        "value": "0x0000000000004f80",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "276",
+        "name": "regs.34826",
+        "value": "0x00000000000004b8",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "277",
+        "name": "snd_ac97_page_save.isra.34",
+        "value": "0x00000000000045b0",
+        "size": 129,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "278",
+        "name": "update_power_regs",
+        "value": "0x0000000000004640",
+        "size": 322,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "279",
+        "name": "power_regs",
+        "value": "0x00000000000005b0",
+        "size": 30,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "280",
+        "name": "do_update_power",
+        "value": "0x0000000000004790",
+        "size": 23,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "281",
+        "name": "alc650_swap_surround_put",
+        "value": "0x0000000000004a10",
+        "size": 62,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "282",
+        "name": "snd_ac97_stac9708_put_bias",
+        "value": "0x0000000000004aa0",
+        "size": 121,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "283",
+        "name": "snd_ac97_ymf753_spdif_output_pin_put",
+        "value": "0x0000000000004b20",
+        "size": 70,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "284",
+        "name": "snd_ac97_ymf7x3_spdif_source_put",
+        "value": "0x0000000000004b70",
+        "size": 52,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "285",
+        "name": "snd_ac97_put_enum_double",
+        "value": "0x0000000000004bb0",
+        "size": 143,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "286",
+        "name": "snd_ac97_vt1618_aux_put",
+        "value": "0x0000000000004c40",
+        "size": 92,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "287",
+        "name": "snd_ac97_vt1618_UAJ_get",
+        "value": "0x0000000000004ca0",
+        "size": 195,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "288",
+        "name": "it2646_update_jacks",
+        "value": "0x0000000000004d70",
+        "size": 108,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "289",
+        "name": "patch_cx20551",
+        "value": "0x0000000000004de0",
+        "size": 33,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "290",
+        "name": "cm9761_update_jacks",
+        "value": "0x0000000000004e10",
+        "size": 128,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "291",
+        "name": "surr_on.35329",
+        "value": "0x0000000000000318",
+        "size": 12,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "292",
+        "name": "clfe_on.35330",
+        "value": "0x0000000000000308",
+        "size": 12,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "293",
+        "name": "surr_shared.35331",
+        "value": "0x00000000000002f8",
+        "size": 12,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "294",
+        "name": "clfe_shared.35332",
+        "value": "0x00000000000002e8",
+        "size": 12,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "295",
+        "name": "cm9761_spdif_out_source_put",
+        "value": "0x0000000000004e90",
+        "size": 110,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "296",
+        "name": "cm9739_update_jacks",
+        "value": "0x0000000000004f00",
+        "size": 115,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "297",
+        "name": "snd_ac97_cmedia_spdif_playback_source_put",
+        "value": "0x0000000000004f80",
+        "size": 44,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "298",
+        "name": "cm9738_update_jacks",
+        "value": "0x0000000000004fb0",
+        "size": 54,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "299",
+        "name": "patch_alc850",
+        "value": "0x0000000000004ff0",
+        "size": 152,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "300",
+        "name": "patch_alc850_ops",
+        "value": "0x00000000000038c0",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "301",
+        "name": "alc850_update_jacks",
+        "value": "0x0000000000005090",
+        "size": 240,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "302",
+        "name": "patch_alc203",
+        "value": "0x0000000000005180",
+        "size": 33,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "303",
+        "name": "patch_alc655",
+        "value": "0x00000000000051b0",
+        "size": 334,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "304",
+        "name": "patch_alc655_ops",
+        "value": "0x0000000000003a40",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "305",
+        "name": "alc650_update_jacks",
+        "value": "0x0000000000005300",
+        "size": 193,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "306",
+        "name": "snd_ac97_restore_iec958.part.37",
+        "value": "0x00000000000053d0",
+        "size": 127,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "307",
+        "name": "ad18xx_resume",
+        "value": "0x0000000000005630",
+        "size": 543,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "308",
+        "name": "setup_regs.34863",
+        "value": "0x0000000000000270",
+        "size": 6,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "309",
+        "name": "ad1888_resume",
+        "value": "0x0000000000005850",
+        "size": 39,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "310",
+        "name": "snd_ac97_ad198x_spdif_source_put",
+        "value": "0x0000000000005880",
+        "size": 53,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "311",
+        "name": "snd_ac97_ad1986_vrefout_put",
+        "value": "0x00000000000058c0",
+        "size": 276,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "312",
+        "name": "snd_ac97_ad1888_downmix_put",
+        "value": "0x00000000000059e0",
+        "size": 67,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "313",
+        "name": "snd_ac97_ad1986_spread_put",
+        "value": "0x0000000000005a30",
+        "size": 148,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "314",
+        "name": "snd_ac97_ad1986_lososel_put",
+        "value": "0x0000000000005ad0",
+        "size": 148,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "315",
+        "name": "ad1986_update_jacks",
+        "value": "0x0000000000005b70",
+        "size": 150,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "316",
+        "name": "snd_ac97_ad1985_vrefout_put",
+        "value": "0x0000000000005c10",
+        "size": 60,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "317",
+        "name": "ctrl2reg.35075",
+        "value": "0x0000000000000210",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "318",
+        "name": "snd_ac97_ad1888_lohpsel_put",
+        "value": "0x0000000000005c50",
+        "size": 76,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "319",
+        "name": "ad1888_update_jacks",
+        "value": "0x0000000000005ca0",
+        "size": 96,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "320",
+        "name": "ad1985_update_jacks",
+        "value": "0x0000000000005d00",
+        "size": 65,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "321",
+        "name": "check_ad1981_hp_jack_sense",
+        "value": "0x0000000000005d50",
+        "size": 83,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "322",
+        "name": "ad1981_jacks_whitelist",
+        "value": "0x0000000000000180",
+        "size": 40,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "323",
+        "name": "patch_ad1881_unchained",
+        "value": "0x0000000000005db0",
+        "size": 123,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "324",
+        "name": "patch_ad1881_chained1",
+        "value": "0x0000000000005e30",
+        "size": 220,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "325",
+        "name": "cfg_bits.34904",
+        "value": "0x00000000000001e0",
+        "size": 12,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "326",
+        "name": "patch_ad1881",
+        "value": "0x0000000000005f10",
+        "size": 724,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "327",
+        "name": "cfg_idxs.34916",
+        "value": "0x00000000000001ec",
+        "size": 6,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "328",
+        "name": "patch_ad1881_build_ops",
+        "value": "0x0000000000004da0",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "329",
+        "name": "patch_ad1986",
+        "value": "0x00000000000061f0",
+        "size": 45,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "330",
+        "name": "patch_ad1986_build_ops",
+        "value": "0x0000000000003f60",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "331",
+        "name": "patch_ad1985",
+        "value": "0x0000000000006220",
+        "size": 98,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "332",
+        "name": "patch_ad1985_build_ops",
+        "value": "0x00000000000042c0",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "333",
+        "name": "patch_ad1888",
+        "value": "0x0000000000006290",
+        "size": 103,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "334",
+        "name": "patch_ad1888_build_ops",
+        "value": "0x0000000000004660",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "335",
+        "name": "patch_ad1980",
+        "value": "0x0000000000006300",
+        "size": 30,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "336",
+        "name": "patch_ad1980_build_ops",
+        "value": "0x0000000000004620",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "337",
+        "name": "patch_ad1886",
+        "value": "0x0000000000006320",
+        "size": 48,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "338",
+        "name": "patch_ad1886_build_ops",
+        "value": "0x0000000000004b60",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "339",
+        "name": "patch_ad1885",
+        "value": "0x0000000000006350",
+        "size": 48,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "340",
+        "name": "patch_ad1885_build_ops",
+        "value": "0x0000000000004ba0",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "341",
+        "name": "patch_ad1981b",
+        "value": "0x0000000000006380",
+        "size": 68,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "342",
+        "name": "patch_ad1981b_build_ops",
+        "value": "0x0000000000004980",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "343",
+        "name": "patch_ad1981a",
+        "value": "0x00000000000063d0",
+        "size": 68,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "344",
+        "name": "patch_ad1981a_build_ops",
+        "value": "0x0000000000004a20",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "345",
+        "name": "snd_ac97_determine_rates",
+        "value": "0x0000000000006420",
+        "size": 661,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "346",
+        "name": "snd_ac97_mixer_build",
+        "value": "0x00000000000066c0",
+        "size": 3683,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "347",
+        "name": "snd_ac97_controls_pc_beep",
+        "value": "0x0000000000001160",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "348",
+        "name": "snd_ac97_controls_ad18xx_pcm",
+        "value": "0x0000000000000800",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "349",
+        "name": "snd_ac97_controls_ad18xx_surround",
+        "value": "0x0000000000000760",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "350",
+        "name": "snd_ac97_controls_ad18xx_center",
+        "value": "0x00000000000006c0",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "351",
+        "name": "snd_ac97_controls_ad18xx_lfe",
+        "value": "0x0000000000000620",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "352",
+        "name": "snd_ac97_control_capture_src",
+        "value": "0x0000000000001060",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "353",
+        "name": "snd_ac97_control_capture_vol",
+        "value": "0x0000000000001000",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "354",
+        "name": "db_scale_rec_gain",
+        "value": "0x00000000000005d0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "355",
+        "name": "snd_ac97_controls_mic_capture",
+        "value": "0x0000000000000f60",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "356",
+        "name": "snd_ac97_controls_general",
+        "value": "0x0000000000000d20",
+        "size": 560,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "357",
+        "name": "enable_loopback",
+        "value": "0x000000000000003c",
+        "size": 1,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "32"
+      },
+      {
+        "number": "358",
+        "name": "snd_ac97_controls_mic_boost",
+        "value": "0x0000000000001100",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "359",
+        "name": "snd_ac97_controls_center",
+        "value": "0x0000000000000be0",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "360",
+        "name": "snd_ac97_controls_tone",
+        "value": "0x0000000000001200",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "361",
+        "name": "snd_ac97_controls_lfe",
+        "value": "0x0000000000000b40",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "362",
+        "name": "snd_ac97_control_eapd",
+        "value": "0x0000000000000ae0",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "363",
+        "name": "ctl_bits.36152",
+        "value": "0x00000000000001d4",
+        "size": 6,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "364",
+        "name": "rate_bits.36153",
+        "value": "0x00000000000001c8",
+        "size": 12,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "365",
+        "name": "tune_inv_eapd",
+        "value": "0x0000000000007530",
+        "size": 89,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "366",
+        "name": "tune_hp_mute_led",
+        "value": "0x0000000000007590",
+        "size": 184,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "367",
+        "name": "hp_master_mute_sw_put",
+        "value": "0x0000000000007650",
+        "size": 118,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "368",
+        "name": "tune_mute_led",
+        "value": "0x00000000000076d0",
+        "size": 113,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "369",
+        "name": "master_mute_sw_put",
+        "value": "0x0000000000007750",
+        "size": 118,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "370",
+        "name": "tune_alc_jack",
+        "value": "0x00000000000077d0",
+        "size": 176,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "371",
+        "name": "snd_ac97_alc_jack_detect",
+        "value": "0x0000000000000560",
+        "size": 80,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "372",
+        "name": "ac97_update_bits_page.constprop.44",
+        "value": "0x0000000000007880",
+        "size": 156,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "373",
+        "name": "alc655_update_jacks",
+        "value": "0x0000000000007920",
+        "size": 150,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "374",
+        "name": "alc655_iec958_route_put",
+        "value": "0x00000000000079c0",
+        "size": 42,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "375",
+        "name": "snd_ac97_vt1618_UAJ_put",
+        "value": "0x00000000000079f0",
+        "size": 59,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "376",
+        "name": "snd_ac97_stac9758_output_jack_put",
+        "value": "0x0000000000007a30",
+        "size": 83,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "377",
+        "name": "snd_ac97_stac9758_input_jack_put",
+        "value": "0x0000000000007a90",
+        "size": 52,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "378",
+        "name": "snd_ac97_stac9758_phonesel_put",
+        "value": "0x0000000000007ad0",
+        "size": 37,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "379",
+        "name": "snd_ac97_put_spsa",
+        "value": "0x0000000000007ca0",
+        "size": 338,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "380",
+        "name": "snd_ac97_spdif_default_put",
+        "value": "0x0000000000007e00",
+        "size": 749,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "381",
+        "name": "snd_ac97_codec_id_vendors",
+        "value": "0x00000000000022c0",
+        "size": 1040,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "382",
+        "name": "snd_ac97_mixer.part.42",
+        "value": "0x0000000000008320",
+        "size": 3234,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "383",
+        "name": "__key.36263",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "32"
+      },
+      {
+        "number": "384",
+        "name": "__key.36264",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "32"
+      },
+      {
+        "number": "385",
+        "name": "ops.36258",
+        "value": "0x0000000000000000",
+        "size": 24,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "386",
+        "name": "snd_ac97_controls_modem_switches",
+        "value": "0x0000000000000a40",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "387",
+        "name": "null_build_ops",
+        "value": "0x0000000000000000",
+        "size": 56,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "32"
+      },
+      {
+        "number": "388",
+        "name": "alsa_ac97_init",
+        "value": "0x0000000000000000",
+        "size": 8,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "5"
+      },
+      {
+        "number": "389",
+        "name": "alsa_ac97_exit",
+        "value": "0x0000000000000000",
+        "size": 6,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "390",
+        "name": "__func__.36514",
+        "value": "0x00000000000001b0",
+        "size": 23,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "391",
+        "name": "__func__.35415",
+        "value": "0x00000000000003a0",
+        "size": 21,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "392",
+        "name": "__kstrtab_snd_ac97_tune_hardware",
+        "value": "0x0000000000000000",
+        "size": 23,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "393",
+        "name": "__kcrctab_snd_ac97_tune_hardware",
+        "value": "0x0000000000000058",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "394",
+        "name": "__kstrtab_snd_ac97_resume",
+        "value": "0x0000000000000017",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "395",
+        "name": "__kcrctab_snd_ac97_resume",
+        "value": "0x0000000000000040",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "396",
+        "name": "__kstrtab_snd_ac97_suspend",
+        "value": "0x0000000000000027",
+        "size": 17,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "397",
+        "name": "__kcrctab_snd_ac97_suspend",
+        "value": "0x0000000000000050",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "398",
+        "name": "__kstrtab_snd_ac97_update_power",
+        "value": "0x0000000000000038",
+        "size": 22,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "399",
+        "name": "__kcrctab_snd_ac97_update_power",
+        "value": "0x0000000000000070",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "400",
+        "name": "__kstrtab_snd_ac97_mixer",
+        "value": "0x000000000000004e",
+        "size": 15,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "401",
+        "name": "__kcrctab_snd_ac97_mixer",
+        "value": "0x0000000000000010",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "402",
+        "name": "__kstrtab_snd_ac97_bus",
+        "value": "0x000000000000005d",
+        "size": 13,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "403",
+        "name": "__kcrctab_snd_ac97_bus",
+        "value": "0x0000000000000000",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "404",
+        "name": "__kstrtab_snd_ac97_get_short_name",
+        "value": "0x000000000000006a",
+        "size": 24,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "405",
+        "name": "__kcrctab_snd_ac97_get_short_name",
+        "value": "0x0000000000000008",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "406",
+        "name": "std_enum",
+        "value": "0x00000000000010c0",
+        "size": 64,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "407",
+        "name": "std_rec_sel",
+        "value": "0x0000000000000080",
+        "size": 64,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "408",
+        "name": "std_3d_path",
+        "value": "0x0000000000000070",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "409",
+        "name": "std_mix",
+        "value": "0x0000000000000060",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "410",
+        "name": "std_mic",
+        "value": "0x0000000000000050",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "411",
+        "name": "__kstrtab_snd_ac97_update_bits",
+        "value": "0x0000000000000082",
+        "size": 21,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "412",
+        "name": "__kcrctab_snd_ac97_update_bits",
+        "value": "0x0000000000000068",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "413",
+        "name": "__kstrtab_snd_ac97_update",
+        "value": "0x0000000000000097",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "414",
+        "name": "__kcrctab_snd_ac97_update",
+        "value": "0x0000000000000060",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "415",
+        "name": "__kstrtab_snd_ac97_write_cache",
+        "value": "0x00000000000000a7",
+        "size": 21,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "416",
+        "name": "__kcrctab_snd_ac97_write_cache",
+        "value": "0x0000000000000080",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "417",
+        "name": "__kstrtab_snd_ac97_read",
+        "value": "0x00000000000000bc",
+        "size": 14,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "418",
+        "name": "__kcrctab_snd_ac97_read",
+        "value": "0x0000000000000038",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "419",
+        "name": "__kstrtab_snd_ac97_write",
+        "value": "0x00000000000000ca",
+        "size": 15,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "420",
+        "name": "__kcrctab_snd_ac97_write",
+        "value": "0x0000000000000078",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "421",
+        "name": "__UNIQUE_ID_power_save6",
+        "value": "0x0000000000000000",
+        "size": 73,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "422",
+        "name": "__UNIQUE_ID_power_savetype5",
+        "value": "0x0000000000000049",
+        "size": 24,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "423",
+        "name": "__param_power_save",
+        "value": "0x0000000000000000",
+        "size": 40,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "19"
+      },
+      {
+        "number": "424",
+        "name": "__param_str_power_save",
+        "value": "0x00000000000026d0",
+        "size": 11,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "425",
+        "name": "__UNIQUE_ID_enable_loopback4",
+        "value": "0x0000000000000061",
+        "size": 58,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "426",
+        "name": "__UNIQUE_ID_enable_loopbacktype3",
+        "value": "0x000000000000009b",
+        "size": 30,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "427",
+        "name": "__param_enable_loopback",
+        "value": "0x0000000000000028",
+        "size": 40,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "19"
+      },
+      {
+        "number": "428",
+        "name": "__param_str_enable_loopback",
+        "value": "0x00000000000026e0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "429",
+        "name": "__UNIQUE_ID_license2",
+        "value": "0x00000000000000b9",
+        "size": 12,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "430",
+        "name": "__UNIQUE_ID_description1",
+        "value": "0x00000000000000c5",
+        "size": 52,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "431",
+        "name": "__UNIQUE_ID_author0",
+        "value": "0x00000000000000f9",
+        "size": 40,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "432",
+        "name": "cm9780_ch_select_enum",
+        "value": "0x0000000000003250",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "433",
+        "name": "cm9780_ch_select",
+        "value": "0x0000000000003260",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "434",
+        "name": "cm9761_dac_clock_enum",
+        "value": "0x0000000000003450",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "435",
+        "name": "cm9761_dac_clock",
+        "value": "0x0000000000003460",
+        "size": 24,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "436",
+        "name": "wm9713_enum",
+        "value": "0x0000000000006ec0",
+        "size": 224,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "437",
+        "name": "wm9713_mic_mixer",
+        "value": "0x00000000000003c0",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "438",
+        "name": "wm9713_rec_mux",
+        "value": "0x00000000000003a0",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "439",
+        "name": "wm9713_rec_src",
+        "value": "0x0000000000000360",
+        "size": 64,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "440",
+        "name": "wm9713_rec_gain",
+        "value": "0x0000000000000340",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "441",
+        "name": "wm9713_alc_select",
+        "value": "0x0000000000000320",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "442",
+        "name": "wm9713_mono_pga",
+        "value": "0x0000000000000300",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "443",
+        "name": "wm9713_spk_pga",
+        "value": "0x00000000000002c0",
+        "size": 64,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "444",
+        "name": "wm9713_hp_pga",
+        "value": "0x00000000000002a0",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "445",
+        "name": "wm9713_out3_pga",
+        "value": "0x0000000000000280",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "446",
+        "name": "wm9713_out4_pga",
+        "value": "0x0000000000000260",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "447",
+        "name": "wm9713_dac_inv",
+        "value": "0x0000000000000220",
+        "size": 64,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "448",
+        "name": "wm9713_base",
+        "value": "0x0000000000000210",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "449",
+        "name": "wm9713_ng_type",
+        "value": "0x0000000000000200",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "450",
+        "name": "wm9711_enum",
+        "value": "0x00000000000083e0",
+        "size": 160,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "451",
+        "name": "wm9711_alc_select",
+        "value": "0x0000000000000500",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "452",
+        "name": "wm9711_alc_mix",
+        "value": "0x00000000000004e0",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "453",
+        "name": "wm9711_out3_src",
+        "value": "0x00000000000004c0",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "454",
+        "name": "wm9711_out3_lrsrc",
+        "value": "0x00000000000004a0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "455",
+        "name": "wm9711_rec_adc",
+        "value": "0x0000000000000480",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "456",
+        "name": "wm9711_base",
+        "value": "0x0000000000000470",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "457",
+        "name": "wm9711_rec_gain",
+        "value": "0x0000000000000460",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "458",
+        "name": "wm9711_mic",
+        "value": "0x0000000000000440",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "459",
+        "name": "wm9711_rec_sel",
+        "value": "0x0000000000000400",
+        "size": 64,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "460",
+        "name": "wm9711_ng_type",
+        "value": "0x00000000000003e0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "461",
+        "name": "set_spdif_rate",
+        "value": "0x0000000000009020",
+        "size": 521,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "462",
+        "name": "double_rate_hw_constraint_rate",
+        "value": "0x00000000000094e0",
+        "size": 42,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "463",
+        "name": "double_rate_hw_constraint_channels",
+        "value": "0x00000000000094b0",
+        "size": 45,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "464",
+        "name": "double_rate_channels.30707",
+        "value": "0x0000000000008b18",
+        "size": 12,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "465",
+        "name": "single_rates.30700",
+        "value": "0x0000000000008b08",
+        "size": 12,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "466",
+        "name": "get_rates",
+        "value": "0x0000000000009510",
+        "size": 218,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "467",
+        "name": "rate_cregs",
+        "value": "0x0000000000008b48",
+        "size": 9,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "468",
+        "name": "CSWTCH.27",
+        "value": "0x0000000000008ae0",
+        "size": 36,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "469",
+        "name": "rate_reg_tables",
+        "value": "0x0000000000008b60",
+        "size": 72,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "470",
+        "name": "descriptor.30647",
+        "value": "0x0000000000000050",
+        "size": 40,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "28"
+      },
+      {
+        "number": "471",
+        "name": "__func__.30648",
+        "value": "0x0000000000008b30",
+        "size": 18,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "472",
+        "name": "__kstrtab_snd_ac97_pcm_double_rate_rules",
+        "value": "0x00000000000000d9",
+        "size": 31,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "473",
+        "name": "__kcrctab_snd_ac97_pcm_double_rate_rules",
+        "value": "0x0000000000000028",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "474",
+        "name": "__kstrtab_snd_ac97_pcm_close",
+        "value": "0x00000000000000f8",
+        "size": 19,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "475",
+        "name": "__kcrctab_snd_ac97_pcm_close",
+        "value": "0x0000000000000020",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "476",
+        "name": "__kstrtab_snd_ac97_pcm_open",
+        "value": "0x000000000000010b",
+        "size": 18,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "477",
+        "name": "__kcrctab_snd_ac97_pcm_open",
+        "value": "0x0000000000000030",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "478",
+        "name": "__kstrtab_snd_ac97_pcm_assign",
+        "value": "0x000000000000011d",
+        "size": 20,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "479",
+        "name": "__kcrctab_snd_ac97_pcm_assign",
+        "value": "0x0000000000000018",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "480",
+        "name": "__kstrtab_snd_ac97_set_rate",
+        "value": "0x0000000000000131",
+        "size": 18,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "481",
+        "name": "__kcrctab_snd_ac97_set_rate",
+        "value": "0x0000000000000048",
+        "size": 8,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "482",
+        "name": "snd_ac97_proc_regs_read_main.isra.2",
+        "value": "0x000000000000a240",
+        "size": 82,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "483",
+        "name": "snd_ac97_proc_regs_read",
+        "value": "0x000000000000a2a0",
+        "size": 188,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "484",
+        "name": "snd_ac97_proc_read_main",
+        "value": "0x000000000000a360",
+        "size": 3705,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "485",
+        "name": "snd_ac97_stereo_enhancements",
+        "value": "0x0000000000008ce0",
+        "size": 256,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "486",
+        "name": "spdif_slots.30197",
+        "value": "0x0000000000008ca0",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "487",
+        "name": "double_rate_slots.30200",
+        "value": "0x0000000000008cc0",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "488",
+        "name": "spdif_rates_cs4205.30199",
+        "value": "0x0000000000008c80",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "489",
+        "name": "function_names.30180",
+        "value": "0x0000000000008bc0",
+        "size": 96,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "490",
+        "name": "locations.30181",
+        "value": "0x0000000000008c20",
+        "size": 64,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "491",
+        "name": "spdif_rates.30198",
+        "value": "0x0000000000008c60",
+        "size": 32,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "492",
+        "name": "snd_ac97_proc_read",
+        "value": "0x000000000000b1e0",
+        "size": 304,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "493",
+        "name": "__UNIQUE_ID_srcversion2",
+        "value": "0x0000000000000130",
+        "size": 35,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "494",
+        "name": "__module_depends",
+        "value": "0x0000000000000160",
+        "size": 29,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "495",
+        "name": "____versions",
+        "value": "0x0000000000000000",
+        "size": 3648,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "25"
+      },
+      {
+        "number": "496",
+        "name": "__UNIQUE_ID_intree1",
+        "value": "0x000000000000017d",
+        "size": 9,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "497",
+        "name": "__UNIQUE_ID_vermagic0",
+        "value": "0x0000000000000186",
+        "size": 54,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "498",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "499",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "4"
+      },
+      {
+        "number": "500",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "5"
+      },
+      {
+        "number": "501",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "502",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "503",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "504",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "14"
+      },
+      {
+        "number": "505",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "506",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "19"
+      },
+      {
+        "number": "507",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "21"
+      },
+      {
+        "number": "508",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "23"
+      },
+      {
+        "number": "509",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "25"
+      },
+      {
+        "number": "510",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "30"
+      },
+      {
+        "number": "511",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "33"
+      },
+      {
+        "number": "512",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "34"
+      },
+      {
+        "number": "513",
+        "name": "strcpy",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "514",
+        "name": "__crc_snd_ac97_update_power",
+        "value": "0x000000006e30330a",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "515",
+        "name": "__crc_snd_ac97_pcm_double_rate_rules",
+        "value": "0x00000000dff454a0",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "516",
+        "name": "snd_ac97_proc_done",
+        "value": "0x000000000000b460",
+        "size": 50,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "517",
+        "name": "snd_ac97_pcm_close",
+        "value": "0x0000000000009d30",
+        "size": 339,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "518",
+        "name": "snd_info_register",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "519",
+        "name": "__ksymtab_snd_ac97_resume",
+        "value": "0x0000000000000080",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "520",
+        "name": "__msecs_to_jiffies",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "521",
+        "name": "snd_ac97_write_cache",
+        "value": "0x0000000000000c00",
+        "size": 116,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "522",
+        "name": "__crc_snd_ac97_bus",
+        "value": "0x000000001c6c43c6",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "523",
+        "name": "dev_set_name",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "524",
+        "name": "snd_ctl_add",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "525",
+        "name": "__this_module",
+        "value": "0x0000000000000000",
+        "size": 896,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "30"
+      },
+      {
+        "number": "526",
+        "name": "__crc_snd_ac97_read",
+        "value": "0x000000008c35f95c",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "527",
+        "name": "snd_ac97_resume",
+        "value": "0x0000000000005450",
+        "size": 466,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "528",
+        "name": "__ksymtab_snd_ac97_read",
+        "value": "0x0000000000000070",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "529",
+        "name": "__ksymtab_snd_ac97_write",
+        "value": "0x00000000000000f0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "530",
+        "name": "snd_ac97_bus_proc_done",
+        "value": "0x000000000000b540",
+        "size": 33,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "531",
+        "name": "device_unregister",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "532",
+        "name": "dev_warn",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "533",
+        "name": "__crc_snd_ac97_pcm_open",
+        "value": "0x00000000c2327359",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "534",
+        "name": "snd_ac97_pcm_open",
+        "value": "0x0000000000009e90",
+        "size": 943,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "535",
+        "name": "__ksymtab_snd_ac97_update_power",
+        "value": "0x00000000000000e0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "536",
+        "name": "cleanup_module",
+        "value": "0x0000000000000000",
+        "size": 6,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "537",
+        "name": "snd_info_free_entry",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "538",
+        "name": "kfree",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "539",
+        "name": "__ksymtab_snd_ac97_get_short_name",
+        "value": "0x0000000000000010",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "540",
+        "name": "snd_interval_refine",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "541",
+        "name": "snd_ac97_set_rate",
+        "value": "0x0000000000009230",
+        "size": 525,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "542",
+        "name": "snd_ac97_update_bits",
+        "value": "0x00000000000044b0",
+        "size": 102,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "543",
+        "name": "snd_ac97_mixer",
+        "value": "0x0000000000008fd0",
+        "size": 73,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "544",
+        "name": "__dynamic_dev_dbg",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "545",
+        "name": "snd_ac97_bus",
+        "value": "0x0000000000003fd0",
+        "size": 205,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "546",
+        "name": "snd_ctl_find_id",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "547",
+        "name": "kmem_cache_alloc_trace",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "548",
+        "name": "__fentry__",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "549",
+        "name": "init_module",
+        "value": "0x0000000000000000",
+        "size": 8,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "5"
+      },
+      {
+        "number": "550",
+        "name": "snd_ctl_new1",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "551",
+        "name": "_raw_spin_lock_irq",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "552",
+        "name": "__ksymtab_snd_ac97_pcm_assign",
+        "value": "0x0000000000000030",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "553",
+        "name": "__stack_chk_fail",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "554",
+        "name": "queue_delayed_work_on",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "555",
+        "name": "snd_ctl_remove_id",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "556",
+        "name": "snd_pcm_std_chmaps",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "557",
+        "name": "pci_bus_read_config_word",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "558",
+        "name": "snd_component_add",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "559",
+        "name": "snd_ctl_make_virtual_master",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "560",
+        "name": "snd_ac97_pcm_double_rate_rules",
+        "value": "0x0000000000009440",
+        "size": 101,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "561",
+        "name": "snd_pcm_hw_rule_add",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "562",
+        "name": "pv_irq_ops",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "563",
+        "name": "snd_ac97_update_power",
+        "value": "0x00000000000047b0",
+        "size": 233,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "564",
+        "name": "__crc_snd_ac97_suspend",
+        "value": "0x00000000ee6f46b7",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "565",
+        "name": "__ksymtab_snd_ac97_update_bits",
+        "value": "0x00000000000000d0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "566",
+        "name": "snd_ctl_enum_info",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "567",
+        "name": "snd_ac97_suspend",
+        "value": "0x0000000000002900",
+        "size": 56,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "568",
+        "name": "__crc_snd_ac97_update_bits",
+        "value": "0x0000000092f53917",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "569",
+        "name": "snd_ctl_boolean_mono_info",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "570",
+        "name": "__ksymtab_snd_ac97_write_cache",
+        "value": "0x0000000000000100",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "571",
+        "name": "mutex_lock",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "572",
+        "name": "ac97_bus_type",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "573",
+        "name": "__crc_snd_ac97_get_short_name",
+        "value": "0x0000000018470a42",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "574",
+        "name": "__mutex_init",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "575",
+        "name": "snd_ac97_get_name",
+        "value": "0x00000000000080f0",
+        "size": 560,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "576",
+        "name": "__crc_snd_ac97_resume",
+        "value": "0x000000000ee58735",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "577",
+        "name": "dev_err",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "578",
+        "name": "device_register",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "579",
+        "name": "snd_ac97_update",
+        "value": "0x0000000000001800",
+        "size": 181,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "580",
+        "name": "cancel_delayed_work",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "581",
+        "name": "snd_device_new",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "582",
+        "name": "__ksymtab_snd_ac97_bus",
+        "value": "0x0000000000000000",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "583",
+        "name": "__ksymtab_snd_ac97_set_rate",
+        "value": "0x0000000000000090",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "584",
+        "name": "__ksymtab_snd_ac97_mixer",
+        "value": "0x0000000000000020",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "585",
+        "name": "__crc_snd_ac97_update",
+        "value": "0x00000000ba817f56",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "586",
+        "name": "snd_ac97_get_short_name",
+        "value": "0x0000000000000ab0",
+        "size": 82,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "587",
+        "name": "__ksymtab_snd_ac97_pcm_open",
+        "value": "0x0000000000000060",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "588",
+        "name": "strcmp",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "589",
+        "name": "_snd_ctl_add_slave",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "590",
+        "name": "jiffies",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "591",
+        "name": "snd_ac97_pcm_assign",
+        "value": "0x00000000000095f0",
+        "size": 1850,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "592",
+        "name": "sprintf",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "593",
+        "name": "__crc_snd_ac97_pcm_close",
+        "value": "0x000000008e8c94f6",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "594",
+        "name": "__ksymtab_snd_ac97_tune_hardware",
+        "value": "0x00000000000000b0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "595",
+        "name": "snd_pcm_alt_chmaps",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "596",
+        "name": "mutex_unlock",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "597",
+        "name": "cancel_delayed_work_sync",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "598",
+        "name": "init_timer_key",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "599",
+        "name": "param_ops_bool",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "600",
+        "name": "__crc_snd_ac97_set_rate",
+        "value": "0x000000003bde4bdd",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "601",
+        "name": "__const_udelay",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "602",
+        "name": "__ksymtab_snd_ac97_suspend",
+        "value": "0x00000000000000a0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "603",
+        "name": "__crc_snd_ac97_mixer",
+        "value": "0x0000000015b6bcd4",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "604",
+        "name": "__ksymtab_snd_ac97_update",
+        "value": "0x00000000000000c0",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "605",
+        "name": "seq_printf",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "606",
+        "name": "__ksymtab_snd_ac97_pcm_close",
+        "value": "0x0000000000000040",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "607",
+        "name": "delayed_work_timer_fn",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "608",
+        "name": "simple_strtoul",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "609",
+        "name": "__crc_snd_ac97_pcm_assign",
+        "value": "0x000000003b16b3de",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "610",
+        "name": "snd_info_create_card_entry",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "611",
+        "name": "__ksymtab_snd_ac97_pcm_double_rate_rules",
+        "value": "0x0000000000000050",
+        "size": 16,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "612",
+        "name": "__crc_snd_ac97_write",
+        "value": "0x00000000e6d3a949",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "613",
+        "name": "snd_ac97_bus_proc_init",
+        "value": "0x000000000000b4a0",
+        "size": 150,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "614",
+        "name": "__crc_snd_ac97_tune_hardware",
+        "value": "0x00000000fd8c6956",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "615",
+        "name": "schedule_timeout_uninterruptible",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "616",
+        "name": "snd_ac97_tune_hardware",
+        "value": "0x0000000000002b00",
+        "size": 572,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "617",
+        "name": "strlen",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "618",
+        "name": "param_ops_int",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "619",
+        "name": "pv_lock_ops",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "620",
+        "name": "snd_ac97_update_bits_nolock",
+        "value": "0x0000000000004400",
+        "size": 162,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "621",
+        "name": "__crc_snd_ac97_write_cache",
+        "value": "0x00000000ce4540a6",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "622",
+        "name": "snd_ac97_write",
+        "value": "0x0000000000000790",
+        "size": 116,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "623",
+        "name": "snd_ac97_read",
+        "value": "0x0000000000000810",
+        "size": 56,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "624",
+        "name": "msleep",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "625",
+        "name": "__kmalloc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "626",
+        "name": "kmalloc_caches",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "627",
+        "name": "snd_ac97_proc_init",
+        "value": "0x000000000000b310",
+        "size": 322,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "628",
+        "name": "system_wq",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      }
+    ]
+  },
+  {
+    "number": "37",
+    "name": ".strtab",
+    "type": "STRTAB",
+    "address": "0x0000000000000000",
+    "offset": "0x01d0d0",
+    "size": 12825,
+    "flags": ""
+  }
+]

@@ -1,0 +1,5150 @@
+[
+  {
+    "number": "0",
+    "name": "<none>",
+    "type": "NULL",
+    "address": "0x0000000000000000",
+    "offset": "0x000000",
+    "size": 0,
+    "flags": ""
+  },
+  {
+    "number": "1",
+    "name": ".text",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x000040",
+    "size": 61821,
+    "flags": "AX"
+  },
+  {
+    "number": "2",
+    "name": ".rela.text",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x02ffa8",
+    "size": 44208,
+    "flags": "I"
+  },
+  {
+    "number": "3",
+    "name": ".data",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x00f1c0",
+    "size": 168,
+    "flags": "WA"
+  },
+  {
+    "number": "4",
+    "name": ".rela.data",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x03ac58",
+    "size": 168,
+    "flags": "I"
+  },
+  {
+    "number": "5",
+    "name": ".bss",
+    "type": "NOBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x00f280",
+    "size": 4128,
+    "flags": "WA"
+  },
+  {
+    "number": "6",
+    "name": ".rodata",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x00f280",
+    "size": 16603,
+    "flags": "A"
+  },
+  {
+    "number": "7",
+    "name": ".rela.rodata",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x03ad00",
+    "size": 8064,
+    "flags": "I"
+  },
+  {
+    "number": "8",
+    "name": ".debug_info",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x01335b",
+    "size": 57097,
+    "flags": ""
+  },
+  {
+    "number": "9",
+    "name": ".rela.debug_info",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x03cc80",
+    "size": 73344,
+    "flags": "I"
+  },
+  {
+    "number": "10",
+    "name": ".debug_abbrev",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x021264",
+    "size": 1107,
+    "flags": ""
+  },
+  {
+    "number": "11",
+    "name": ".debug_aranges",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x0216b7",
+    "size": 48,
+    "flags": ""
+  },
+  {
+    "number": "12",
+    "name": ".rela.debug_aranges",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x04eb00",
+    "size": 48,
+    "flags": "I"
+  },
+  {
+    "number": "13",
+    "name": ".debug_ranges",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x0216e7",
+    "size": 592,
+    "flags": ""
+  },
+  {
+    "number": "14",
+    "name": ".debug_line",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x021937",
+    "size": 8667,
+    "flags": ""
+  },
+  {
+    "number": "15",
+    "name": ".rela.debug_line",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x04eb30",
+    "size": 24,
+    "flags": "I"
+  },
+  {
+    "number": "16",
+    "name": ".debug_str",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x023b12",
+    "size": 25722,
+    "flags": "MS"
+  },
+  {
+    "number": "17",
+    "name": ".comment",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x029f8c",
+    "size": 53,
+    "flags": "MS"
+  },
+  {
+    "number": "18",
+    "name": ".note.GNU-stack",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x029fc1",
+    "size": 0,
+    "flags": ""
+  },
+  {
+    "number": "19",
+    "name": ".eh_frame",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x029fc8",
+    "size": 3192,
+    "flags": "A"
+  },
+  {
+    "number": "20",
+    "name": ".rela.eh_frame",
+    "type": "RELA",
+    "address": "0x0000000000000000",
+    "offset": "0x04eb48",
+    "size": 2328,
+    "flags": "I"
+  },
+  {
+    "number": "21",
+    "name": ".shstrtab",
+    "type": "STRTAB",
+    "address": "0x0000000000000000",
+    "offset": "0x04f460",
+    "size": 200,
+    "flags": ""
+  },
+  {
+    "number": "22",
+    "name": ".symtab",
+    "type": "SYMTAB",
+    "address": "0x0000000000000000",
+    "offset": "0x02ac40",
+    "size": 11832,
+    "flags": "",
+    "symbols": [
+      {
+        "number": "0",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "1",
+        "name": "openssl.c",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FILE",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "2",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "3",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "3"
+      },
+      {
+        "number": "4",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "5"
+      },
+      {
+        "number": "5",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "6",
+        "name": "long_min_digits",
+        "value": "0x0000000000000000",
+        "size": 20,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "7",
+        "name": "zval_get_type",
+        "value": "0x0000000000000000",
+        "size": 18,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "8",
+        "name": "zval_addref_p",
+        "value": "0x0000000000000012",
+        "size": 73,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "9",
+        "name": "__PRETTY_FUNCTION__.5648",
+        "value": "0x00000000000040b0",
+        "size": 14,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "10",
+        "name": "zend_string_forget_hash_val",
+        "value": "0x000000000000005b",
+        "size": 23,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "11",
+        "name": "zend_string_alloc",
+        "value": "0x0000000000000072",
+        "size": 153,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "12",
+        "name": "zend_string_init",
+        "value": "0x000000000000010b",
+        "size": 91,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "13",
+        "name": "zend_string_copy",
+        "value": "0x0000000000000166",
+        "size": 47,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "14",
+        "name": "zend_string_release",
+        "value": "0x0000000000000195",
+        "size": 123,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "15",
+        "name": "_zval_dtor",
+        "value": "0x0000000000000210",
+        "size": 67,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "16",
+        "name": "arginfo_openssl_x509_export_to_file",
+        "value": "0x00000000000000c0",
+        "size": 96,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "17",
+        "name": "arginfo_openssl_x509_export",
+        "value": "0x0000000000000140",
+        "size": 96,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "18",
+        "name": "arginfo_openssl_x509_fingerprint",
+        "value": "0x00000000000001c0",
+        "size": 96,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "19",
+        "name": "arginfo_openssl_x509_check_private_key",
+        "value": "0x0000000000000240",
+        "size": 72,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "20",
+        "name": "arginfo_openssl_x509_parse",
+        "value": "0x00000000000002a0",
+        "size": 72,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "21",
+        "name": "arginfo_openssl_x509_checkpurpose",
+        "value": "0x0000000000000320",
+        "size": 120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "22",
+        "name": "arginfo_openssl_x509_read",
+        "value": "0x00000000000003a0",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "23",
+        "name": "arginfo_openssl_x509_free",
+        "value": "0x00000000000003e0",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "24",
+        "name": "arginfo_openssl_pkcs12_export_to_file",
+        "value": "0x0000000000000440",
+        "size": 144,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "25",
+        "name": "arginfo_openssl_pkcs12_export",
+        "value": "0x00000000000004e0",
+        "size": 144,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "26",
+        "name": "arginfo_openssl_pkcs12_read",
+        "value": "0x0000000000000580",
+        "size": 96,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "27",
+        "name": "arginfo_openssl_csr_export_to_file",
+        "value": "0x0000000000000600",
+        "size": 96,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "28",
+        "name": "arginfo_openssl_csr_export",
+        "value": "0x0000000000000660",
+        "size": 96,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "29",
+        "name": "arginfo_openssl_csr_sign",
+        "value": "0x00000000000006e0",
+        "size": 168,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "30",
+        "name": "arginfo_openssl_csr_new",
+        "value": "0x00000000000007c0",
+        "size": 120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "31",
+        "name": "arginfo_openssl_csr_get_subject",
+        "value": "0x0000000000000840",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "32",
+        "name": "arginfo_openssl_csr_get_public_key",
+        "value": "0x0000000000000880",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "33",
+        "name": "arginfo_openssl_pkey_new",
+        "value": "0x00000000000008c0",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "34",
+        "name": "arginfo_openssl_pkey_export_to_file",
+        "value": "0x0000000000000900",
+        "size": 120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "35",
+        "name": "arginfo_openssl_pkey_export",
+        "value": "0x0000000000000980",
+        "size": 120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "36",
+        "name": "arginfo_openssl_pkey_get_public",
+        "value": "0x0000000000000a00",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "37",
+        "name": "arginfo_openssl_pkey_free",
+        "value": "0x0000000000000a40",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "38",
+        "name": "arginfo_openssl_pkey_get_private",
+        "value": "0x0000000000000a80",
+        "size": 72,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "39",
+        "name": "arginfo_openssl_pkey_get_details",
+        "value": "0x0000000000000ae0",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "40",
+        "name": "arginfo_openssl_pbkdf2",
+        "value": "0x0000000000000b60",
+        "size": 144,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "41",
+        "name": "arginfo_openssl_pkcs7_verify",
+        "value": "0x0000000000000c20",
+        "size": 168,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "42",
+        "name": "arginfo_openssl_pkcs7_encrypt",
+        "value": "0x0000000000000d00",
+        "size": 168,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "43",
+        "name": "arginfo_openssl_pkcs7_sign",
+        "value": "0x0000000000000de0",
+        "size": 192,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "44",
+        "name": "arginfo_openssl_pkcs7_decrypt",
+        "value": "0x0000000000000ec0",
+        "size": 120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "45",
+        "name": "arginfo_openssl_private_encrypt",
+        "value": "0x0000000000000f60",
+        "size": 120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "46",
+        "name": "arginfo_openssl_private_decrypt",
+        "value": "0x0000000000000fe0",
+        "size": 120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "47",
+        "name": "arginfo_openssl_public_encrypt",
+        "value": "0x0000000000001060",
+        "size": 120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "48",
+        "name": "arginfo_openssl_public_decrypt",
+        "value": "0x00000000000010e0",
+        "size": 120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "49",
+        "name": "arginfo_openssl_error_string",
+        "value": "0x0000000000001160",
+        "size": 24,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "50",
+        "name": "arginfo_openssl_sign",
+        "value": "0x00000000000011a0",
+        "size": 120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "51",
+        "name": "arginfo_openssl_verify",
+        "value": "0x0000000000001220",
+        "size": 120,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "52",
+        "name": "arginfo_openssl_seal",
+        "value": "0x00000000000012c0",
+        "size": 168,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "53",
+        "name": "arginfo_openssl_open",
+        "value": "0x0000000000001380",
+        "size": 144,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "54",
+        "name": "arginfo_openssl_get_md_methods",
+        "value": "0x0000000000001420",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "55",
+        "name": "arginfo_openssl_get_cipher_methods",
+        "value": "0x0000000000001460",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "56",
+        "name": "arginfo_openssl_digest",
+        "value": "0x00000000000014a0",
+        "size": 96,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "57",
+        "name": "arginfo_openssl_encrypt",
+        "value": "0x0000000000001520",
+        "size": 144,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "58",
+        "name": "arginfo_openssl_decrypt",
+        "value": "0x00000000000015c0",
+        "size": 144,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "59",
+        "name": "arginfo_openssl_cipher_iv_length",
+        "value": "0x0000000000001660",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "60",
+        "name": "arginfo_openssl_dh_compute_key",
+        "value": "0x00000000000016a0",
+        "size": 72,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "61",
+        "name": "arginfo_openssl_random_pseudo_bytes",
+        "value": "0x0000000000001700",
+        "size": 72,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "62",
+        "name": "arginfo_openssl_spki_new",
+        "value": "0x0000000000001760",
+        "size": 96,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "63",
+        "name": "arginfo_openssl_spki_verify",
+        "value": "0x00000000000017e0",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "64",
+        "name": "arginfo_openssl_spki_export",
+        "value": "0x0000000000001820",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "65",
+        "name": "arginfo_openssl_spki_export_challenge",
+        "value": "0x0000000000001860",
+        "size": 48,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "66",
+        "name": "arginfo_openssl_get_cert_locations",
+        "value": "0x0000000000001890",
+        "size": 24,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "67",
+        "name": "le_key",
+        "value": "0x0000000000000000",
+        "size": 4,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "5"
+      },
+      {
+        "number": "68",
+        "name": "le_x509",
+        "value": "0x0000000000000004",
+        "size": 4,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "5"
+      },
+      {
+        "number": "69",
+        "name": "le_csr",
+        "value": "0x0000000000000008",
+        "size": 4,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "5"
+      },
+      {
+        "number": "70",
+        "name": "ssl_stream_data_index",
+        "value": "0x000000000000000c",
+        "size": 4,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "5"
+      },
+      {
+        "number": "71",
+        "name": "php_pkey_free",
+        "value": "0x000000000000025f",
+        "size": 71,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "72",
+        "name": "__PRETTY_FUNCTION__.28079",
+        "value": "0x00000000000040a0",
+        "size": 14,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "73",
+        "name": "php_x509_free",
+        "value": "0x00000000000002a6",
+        "size": 39,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "74",
+        "name": "php_csr_free",
+        "value": "0x00000000000002cd",
+        "size": 39,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "75",
+        "name": "php_openssl_open_base_dir_chk",
+        "value": "0x00000000000002f4",
+        "size": 42,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "76",
+        "name": "default_ssl_conf_filename",
+        "value": "0x0000000000000020",
+        "size": 4096,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "5"
+      },
+      {
+        "number": "77",
+        "name": "add_assoc_name_entry",
+        "value": "0x000000000000034c",
+        "size": 876,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "78",
+        "name": "add_assoc_asn1_string",
+        "value": "0x00000000000006b8",
+        "size": 87,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "79",
+        "name": "asn1_time_to_time_t",
+        "value": "0x000000000000070f",
+        "size": 761,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "80",
+        "name": "php_openssl_config_check_syntax",
+        "value": "0x0000000000000a08",
+        "size": 206,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "81",
+        "name": "add_oid_section",
+        "value": "0x0000000000000ad6",
+        "size": 290,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "82",
+        "name": "openssl_spki_cleanup",
+        "value": "0x0000000000000bf8",
+        "size": 98,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "83",
+        "name": "php_openssl_parse_config",
+        "value": "0x0000000000000c5a",
+        "size": 1765,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "84",
+        "name": "php_openssl_get_evp_cipher_from_algo",
+        "value": "0x0000000000001609",
+        "size": 101,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "85",
+        "name": "php_openssl_dispose_config",
+        "value": "0x000000000000133f",
+        "size": 135,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "86",
+        "name": "php_openssl_load_rand_file",
+        "value": "0x00000000000013c6",
+        "size": 234,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "87",
+        "name": "php_openssl_write_rand_file",
+        "value": "0x00000000000014b0",
+        "size": 195,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "88",
+        "name": "php_openssl_get_evp_md_from_algo",
+        "value": "0x0000000000001573",
+        "size": 150,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "89",
+        "name": "ini_entries",
+        "value": "0x00000000000027e0",
+        "size": 216,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "90",
+        "name": "php_openssl_x509_from_zval",
+        "value": "0x000000000000202c",
+        "size": 603,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "91",
+        "name": "php_openssl_evp_from_zval",
+        "value": "0x00000000000070c1",
+        "size": 1949,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "92",
+        "name": "openssl_x509v3_subjectAltName",
+        "value": "0x0000000000003462",
+        "size": 636,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "93",
+        "name": "load_all_certs_from_file",
+        "value": "0x0000000000003f7b",
+        "size": 476,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "94",
+        "name": "check_cert",
+        "value": "0x0000000000004157",
+        "size": 157,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "95",
+        "name": "setup_verify",
+        "value": "0x00000000000043e3",
+        "size": 962,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "96",
+        "name": "php_sk_X509_free",
+        "value": "0x0000000000004904",
+        "size": 65,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "97",
+        "name": "php_array_to_X509_sk",
+        "value": "0x0000000000004945",
+        "size": 391,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "98",
+        "name": "php_openssl_make_REQ",
+        "value": "0x000000000000575f",
+        "size": 2271,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "99",
+        "name": "php_openssl_csr_from_zval",
+        "value": "0x000000000000603e",
+        "size": 398,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "100",
+        "name": "php_openssl_generate_private_key",
+        "value": "0x000000000000785e",
+        "size": 901,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "101",
+        "name": "php_openssl_is_private_key",
+        "value": "0x0000000000007be3",
+        "size": 532,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "102",
+        "name": "__PRETTY_FUNCTION__.28794",
+        "value": "0x00000000000040c0",
+        "size": 27,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "103",
+        "name": "openssl_add_method_or_alias",
+        "value": "0x000000000000db3c",
+        "size": 42,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "104",
+        "name": "openssl_add_method",
+        "value": "0x000000000000db66",
+        "size": 53,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "105",
+        "name": "php_openssl_validate_iv",
+        "value": "0x000000000000df8b",
+        "size": 344,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "106",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "8"
+      },
+      {
+        "number": "107",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "10"
+      },
+      {
+        "number": "108",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "109",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "13"
+      },
+      {
+        "number": "110",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "14"
+      },
+      {
+        "number": "111",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "16"
+      },
+      {
+        "number": "112",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "113",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "19"
+      },
+      {
+        "number": "114",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "115",
+        "name": "__assert_fail",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "116",
+        "name": "__zend_malloc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "117",
+        "name": "_emalloc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "118",
+        "name": "memcpy",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "119",
+        "name": "free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "120",
+        "name": "_efree",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "121",
+        "name": "_zval_dtor_func",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "122",
+        "name": "openssl_functions",
+        "value": "0x0000000000001d40",
+        "size": 1760,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "6"
+      },
+      {
+        "number": "123",
+        "name": "zif_openssl_get_cert_locations",
+        "value": "0x0000000000001ed8",
+        "size": 340,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "124",
+        "name": "zif_openssl_spki_new",
+        "value": "0x00000000000023ff",
+        "size": 1063,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "125",
+        "name": "zif_openssl_spki_verify",
+        "value": "0x0000000000002826",
+        "size": 543,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "126",
+        "name": "zif_openssl_spki_export",
+        "value": "0x0000000000002a45",
+        "size": 712,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "127",
+        "name": "zif_openssl_spki_export_challenge",
+        "value": "0x0000000000002d0d",
+        "size": 480,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "128",
+        "name": "zif_openssl_pkey_free",
+        "value": "0x00000000000093bd",
+        "size": 159,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "129",
+        "name": "zif_openssl_pkey_new",
+        "value": "0x0000000000007df7",
+        "size": 3482,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "130",
+        "name": "zif_openssl_pkey_export",
+        "value": "0x0000000000008f1d",
+        "size": 990,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "131",
+        "name": "zif_openssl_pkey_export_to_file",
+        "value": "0x0000000000008b91",
+        "size": 908,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "132",
+        "name": "zif_openssl_pkey_get_private",
+        "value": "0x000000000000945c",
+        "size": 221,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "133",
+        "name": "zif_openssl_pkey_get_public",
+        "value": "0x00000000000092fb",
+        "size": 194,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "134",
+        "name": "zif_openssl_pkey_get_details",
+        "value": "0x0000000000009539",
+        "size": 4298,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "135",
+        "name": "zif_openssl_x509_read",
+        "value": "0x00000000000047a5",
+        "size": 192,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "136",
+        "name": "zif_openssl_x509_free",
+        "value": "0x0000000000004865",
+        "size": 159,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "137",
+        "name": "zif_openssl_x509_parse",
+        "value": "0x00000000000036de",
+        "size": 2205,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "138",
+        "name": "zif_openssl_x509_checkpurpose",
+        "value": "0x00000000000041f4",
+        "size": 495,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "139",
+        "name": "zif_openssl_x509_check_private_key",
+        "value": "0x0000000000003311",
+        "size": 337,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "140",
+        "name": "zif_openssl_x509_export",
+        "value": "0x0000000000002eed",
+        "size": 421,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "141",
+        "name": "zif_openssl_x509_fingerprint",
+        "value": "0x00000000000031b9",
+        "size": 344,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "142",
+        "name": "zif_openssl_x509_export_to_file",
+        "value": "0x0000000000002287",
+        "size": 376,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "143",
+        "name": "zif_openssl_pkcs12_export",
+        "value": "0x0000000000004e1f",
+        "size": 905,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "144",
+        "name": "zif_openssl_pkcs12_export_to_file",
+        "value": "0x0000000000004acc",
+        "size": 851,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "145",
+        "name": "zif_openssl_pkcs12_read",
+        "value": "0x00000000000051a8",
+        "size": 1463,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "146",
+        "name": "zif_openssl_csr_new",
+        "value": "0x0000000000006b69",
+        "size": 935,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "147",
+        "name": "zif_openssl_csr_export",
+        "value": "0x0000000000006354",
+        "size": 437,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "148",
+        "name": "zif_openssl_csr_export_to_file",
+        "value": "0x00000000000061cc",
+        "size": 392,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "149",
+        "name": "zif_openssl_csr_sign",
+        "value": "0x0000000000006509",
+        "size": 1632,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "150",
+        "name": "zif_openssl_csr_get_subject",
+        "value": "0x0000000000006f10",
+        "size": 219,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "151",
+        "name": "zif_openssl_csr_get_public_key",
+        "value": "0x0000000000006feb",
+        "size": 214,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "152",
+        "name": "zif_openssl_digest",
+        "value": "0x000000000000dce5",
+        "size": 678,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "153",
+        "name": "zif_openssl_encrypt",
+        "value": "0x000000000000e0e3",
+        "size": 1523,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "154",
+        "name": "zif_openssl_decrypt",
+        "value": "0x000000000000e6d6",
+        "size": 1509,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "155",
+        "name": "zif_openssl_cipher_iv_length",
+        "value": "0x000000000000ecbb",
+        "size": 253,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "156",
+        "name": "zif_openssl_sign",
+        "value": "0x000000000000c4ab",
+        "size": 797,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "157",
+        "name": "zif_openssl_verify",
+        "value": "0x000000000000c7c8",
+        "size": 698,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "158",
+        "name": "zif_openssl_seal",
+        "value": "0x000000000000ca82",
+        "size": 2925,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "159",
+        "name": "zif_openssl_open",
+        "value": "0x000000000000d5ef",
+        "size": 1357,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "160",
+        "name": "zif_openssl_pbkdf2",
+        "value": "0x000000000000a603",
+        "size": 744,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "161",
+        "name": "zif_openssl_pkcs7_verify",
+        "value": "0x000000000000a8eb",
+        "size": 1058,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "162",
+        "name": "zif_openssl_pkcs7_decrypt",
+        "value": "0x000000000000b6cf",
+        "size": 656,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "163",
+        "name": "zif_openssl_pkcs7_sign",
+        "value": "0x000000000000b213",
+        "size": 1212,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "164",
+        "name": "zif_openssl_pkcs7_encrypt",
+        "value": "0x000000000000ad0d",
+        "size": 1286,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "165",
+        "name": "zif_openssl_private_encrypt",
+        "value": "0x000000000000b95f",
+        "size": 602,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "166",
+        "name": "zif_openssl_private_decrypt",
+        "value": "0x000000000000bbb9",
+        "size": 704,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "167",
+        "name": "zif_openssl_public_encrypt",
+        "value": "0x000000000000be79",
+        "size": 594,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "168",
+        "name": "zif_openssl_public_decrypt",
+        "value": "0x000000000000c0cb",
+        "size": 704,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "169",
+        "name": "zif_openssl_get_md_methods",
+        "value": "0x000000000000db9b",
+        "size": 165,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "170",
+        "name": "zif_openssl_get_cipher_methods",
+        "value": "0x000000000000dc40",
+        "size": 165,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "171",
+        "name": "zif_openssl_dh_compute_key",
+        "value": "0x000000000000edb8",
+        "size": 505,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "172",
+        "name": "zif_openssl_random_pseudo_bytes",
+        "value": "0x000000000000efb1",
+        "size": 460,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "173",
+        "name": "zif_openssl_error_string",
+        "value": "0x000000000000c38b",
+        "size": 288,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "174",
+        "name": "openssl_module_entry",
+        "value": "0x0000000000000000",
+        "size": 168,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "3"
+      },
+      {
+        "number": "175",
+        "name": "zm_startup_openssl",
+        "value": "0x000000000000166e",
+        "size": 1873,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "176",
+        "name": "zm_shutdown_openssl",
+        "value": "0x0000000000001e50",
+        "size": 136,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "177",
+        "name": "zm_info_openssl",
+        "value": "0x0000000000001dbf",
+        "size": 145,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "178",
+        "name": "php_openssl_get_x509_list_id",
+        "value": "0x0000000000000253",
+        "size": 12,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "179",
+        "name": "EVP_PKEY_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "180",
+        "name": "X509_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "181",
+        "name": "X509_REQ_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "182",
+        "name": "php_check_open_basedir",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "183",
+        "name": "php_openssl_get_stream_from_ssl_handle",
+        "value": "0x000000000000031e",
+        "size": 34,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "184",
+        "name": "SSL_get_ex_data",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "185",
+        "name": "php_openssl_get_ssl_stream_data_index",
+        "value": "0x0000000000000340",
+        "size": 12,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "186",
+        "name": "_array_init",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "187",
+        "name": "X509_NAME_get_entry",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "188",
+        "name": "X509_NAME_ENTRY_get_object",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "189",
+        "name": "OBJ_obj2nid",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "190",
+        "name": "OBJ_nid2sn",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "191",
+        "name": "OBJ_nid2ln",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "192",
+        "name": "X509_NAME_ENTRY_get_data",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "193",
+        "name": "ASN1_STRING_type",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "194",
+        "name": "ASN1_STRING_to_UTF8",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "195",
+        "name": "ASN1_STRING_data",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "196",
+        "name": "ASN1_STRING_length",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "197",
+        "name": "strlen",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "198",
+        "name": "zend_hash_str_find",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "199",
+        "name": "add_next_index_stringl",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "200",
+        "name": "add_next_index_str",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "201",
+        "name": "_zend_hash_str_update",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "202",
+        "name": "add_assoc_stringl_ex",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "203",
+        "name": "X509_NAME_entry_count",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "204",
+        "name": "__stack_chk_fail",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "205",
+        "name": "php_error_docref0",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "206",
+        "name": "_estrdup",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "207",
+        "name": "memset",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "208",
+        "name": "atoi",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "209",
+        "name": "mktime",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "210",
+        "name": "X509V3_set_ctx",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "211",
+        "name": "X509V3_set_conf_lhash",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "212",
+        "name": "X509V3_EXT_add_conf",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "213",
+        "name": "CONF_get_string",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "214",
+        "name": "CONF_get_section",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "215",
+        "name": "sk_value",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "216",
+        "name": "OBJ_create",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "217",
+        "name": "sk_num",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "218",
+        "name": "CONF_load",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "219",
+        "name": "BIO_new_file",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "220",
+        "name": "OBJ_create_objects",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "221",
+        "name": "BIO_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "222",
+        "name": "CONF_get_number",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "223",
+        "name": "strcmp",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "224",
+        "name": "EVP_get_digestbyname",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "225",
+        "name": "EVP_sha1",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "226",
+        "name": "ASN1_STRING_set_default_mask_asc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "227",
+        "name": "CONF_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "228",
+        "name": "RAND_file_name",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "229",
+        "name": "RAND_load_file",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "230",
+        "name": "RAND_status",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "231",
+        "name": "RAND_write_file",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "232",
+        "name": "EVP_md5",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "233",
+        "name": "EVP_md4",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "234",
+        "name": "EVP_dss1",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "235",
+        "name": "EVP_sha224",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "236",
+        "name": "EVP_sha256",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "237",
+        "name": "EVP_sha384",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "238",
+        "name": "EVP_sha512",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "239",
+        "name": "EVP_ripemd160",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "240",
+        "name": "EVP_rc2_40_cbc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "241",
+        "name": "EVP_rc2_64_cbc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "242",
+        "name": "EVP_rc2_cbc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "243",
+        "name": "EVP_des_cbc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "244",
+        "name": "EVP_des_ede3_cbc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "245",
+        "name": "EVP_aes_128_cbc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "246",
+        "name": "EVP_aes_192_cbc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "247",
+        "name": "EVP_aes_256_cbc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "248",
+        "name": "zend_register_list_destructors_ex",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "249",
+        "name": "SSL_library_init",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "250",
+        "name": "OpenSSL_add_all_ciphers",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "251",
+        "name": "OpenSSL_add_all_digests",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "252",
+        "name": "OPENSSL_add_all_algorithms_noconf",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "253",
+        "name": "SSL_load_error_strings",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "254",
+        "name": "SSL_get_ex_new_index",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "255",
+        "name": "zend_register_string_constant",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "256",
+        "name": "zend_register_long_constant",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "257",
+        "name": "getenv",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "258",
+        "name": "X509_get_default_cert_area",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "259",
+        "name": "ap_php_snprintf",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "260",
+        "name": "php_strlcpy",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "261",
+        "name": "php_openssl_ssl_socket_factory",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "262",
+        "name": "php_stream_xport_register",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "263",
+        "name": "php_stream_http_wrapper",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "264",
+        "name": "php_register_url_stream_wrapper",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "265",
+        "name": "php_stream_ftp_wrapper",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "266",
+        "name": "zend_register_ini_entries",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "267",
+        "name": "php_info_print_table_start",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "268",
+        "name": "php_info_print_table_row",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "269",
+        "name": "SSLeay_version",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "270",
+        "name": "php_info_print_table_end",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "271",
+        "name": "display_ini_entries",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "272",
+        "name": "EVP_cleanup",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "273",
+        "name": "CRYPTO_set_locking_callback",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "274",
+        "name": "ERR_free_strings",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "275",
+        "name": "php_unregister_url_stream_wrapper",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "276",
+        "name": "php_stream_xport_unregister",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "277",
+        "name": "php_stream_generic_socket_factory",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "278",
+        "name": "zend_unregister_ini_entries",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "279",
+        "name": "X509_get_default_cert_file",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "280",
+        "name": "add_assoc_string_ex",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "281",
+        "name": "X509_get_default_cert_file_env",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "282",
+        "name": "X509_get_default_cert_dir",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "283",
+        "name": "X509_get_default_cert_dir_env",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "284",
+        "name": "X509_get_default_private_dir",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "285",
+        "name": "zend_ini_string",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "286",
+        "name": "zend_fetch_resource",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "287",
+        "name": "_convert_to_string",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "288",
+        "name": "memcmp",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "289",
+        "name": "PEM_read_bio_X509",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "290",
+        "name": "BIO_new_mem_buf",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "291",
+        "name": "d2i_X509",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "292",
+        "name": "PEM_ASN1_read_bio",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "293",
+        "name": "zend_register_resource",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "294",
+        "name": "zend_parse_parameters",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "295",
+        "name": "X509_print",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "296",
+        "name": "PEM_write_bio_X509",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "297",
+        "name": "NETSCAPE_SPKI_new",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "298",
+        "name": "ASN1_STRING_set",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "299",
+        "name": "NETSCAPE_SPKI_set_pubkey",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "300",
+        "name": "NETSCAPE_SPKI_sign",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "301",
+        "name": "NETSCAPE_SPKI_b64_encode",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "302",
+        "name": "php_sprintf",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "303",
+        "name": "NETSCAPE_SPKI_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "304",
+        "name": "NETSCAPE_SPKI_b64_decode",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "305",
+        "name": "X509_PUBKEY_get",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "306",
+        "name": "NETSCAPE_SPKI_verify",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "307",
+        "name": "BIO_s_mem",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "308",
+        "name": "BIO_new",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "309",
+        "name": "PEM_write_bio_PUBKEY",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "310",
+        "name": "BIO_ctrl",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "311",
+        "name": "BIO_free_all",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "312",
+        "name": "php_openssl_x509_fingerprint",
+        "value": "0x0000000000003092",
+        "size": 295,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "1"
+      },
+      {
+        "number": "313",
+        "name": "X509_digest",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "314",
+        "name": "make_digest_ex",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "315",
+        "name": "X509_check_private_key",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "316",
+        "name": "X509V3_EXT_get",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "317",
+        "name": "ASN1_item_d2i",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "318",
+        "name": "BIO_puts",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "319",
+        "name": "BIO_write",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "320",
+        "name": "GENERAL_NAME_print",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "321",
+        "name": "GENERAL_NAME_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "322",
+        "name": "sk_pop_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "323",
+        "name": "X509_get_subject_name",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "324",
+        "name": "X509_subject_name_hash",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "325",
+        "name": "X509_get_issuer_name",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "326",
+        "name": "ASN1_INTEGER_get",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "327",
+        "name": "add_assoc_long_ex",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "328",
+        "name": "X509_get_serialNumber",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "329",
+        "name": "i2s_ASN1_INTEGER",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "330",
+        "name": "X509_alias_get0",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "331",
+        "name": "X509_PURPOSE_get0",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "332",
+        "name": "X509_PURPOSE_get_id",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "333",
+        "name": "X509_check_purpose",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "334",
+        "name": "add_index_bool",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "335",
+        "name": "X509_PURPOSE_get0_sname",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "336",
+        "name": "X509_PURPOSE_get0_name",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "337",
+        "name": "add_index_string",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "338",
+        "name": "add_index_zval",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "339",
+        "name": "X509_PURPOSE_get_count",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "340",
+        "name": "add_assoc_zval_ex",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "341",
+        "name": "X509_get_ext",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "342",
+        "name": "X509_EXTENSION_get_object",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "343",
+        "name": "OBJ_obj2txt",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "344",
+        "name": "X509V3_EXT_print",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "345",
+        "name": "X509_EXTENSION_get_data",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "346",
+        "name": "X509_get_ext_count",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "347",
+        "name": "sk_new_null",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "348",
+        "name": "sk_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "349",
+        "name": "PEM_X509_INFO_read_bio",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "350",
+        "name": "sk_shift",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "351",
+        "name": "sk_push",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "352",
+        "name": "X509_INFO_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "353",
+        "name": "X509_STORE_CTX_new",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "354",
+        "name": "X509_STORE_CTX_init",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "355",
+        "name": "X509_STORE_CTX_set_purpose",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "356",
+        "name": "X509_verify_cert",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "357",
+        "name": "X509_STORE_CTX_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "358",
+        "name": "X509_STORE_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "359",
+        "name": "X509_STORE_new",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "360",
+        "name": "virtual_stat",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "361",
+        "name": "X509_LOOKUP_file",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "362",
+        "name": "X509_STORE_add_lookup",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "363",
+        "name": "X509_LOOKUP_ctrl",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "364",
+        "name": "X509_LOOKUP_hash_dir",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "365",
+        "name": "zend_list_close",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "366",
+        "name": "sk_pop",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "367",
+        "name": "X509_dup",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "368",
+        "name": "PKCS12_create",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "369",
+        "name": "i2d_PKCS12_bio",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "370",
+        "name": "PKCS12_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "371",
+        "name": "d2i_PKCS12_bio",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "372",
+        "name": "PKCS12_parse",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "373",
+        "name": "PEM_write_bio_PrivateKey",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "374",
+        "name": "ERR_peek_error",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "375",
+        "name": "ERR_get_error",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "376",
+        "name": "X509_REQ_set_version",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "377",
+        "name": "OBJ_txt2nid",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "378",
+        "name": "X509_NAME_add_entry_by_NID",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "379",
+        "name": "X509_NAME_get_index_by_NID",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "380",
+        "name": "X509_NAME_add_entry_by_txt",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "381",
+        "name": "X509_REQ_get_attr_by_NID",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "382",
+        "name": "X509_REQ_add1_attr_by_txt",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "383",
+        "name": "X509_REQ_set_pubkey",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "384",
+        "name": "PEM_read_bio_X509_REQ",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "385",
+        "name": "X509_REQ_print",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "386",
+        "name": "PEM_write_bio_X509_REQ",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "387",
+        "name": "X509_REQ_get_pubkey",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "388",
+        "name": "X509_REQ_verify",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "389",
+        "name": "X509_new",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "390",
+        "name": "X509_set_version",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "391",
+        "name": "ASN1_INTEGER_set",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "392",
+        "name": "X509_set_subject_name",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "393",
+        "name": "X509_set_issuer_name",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "394",
+        "name": "X509_gmtime_adj",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "395",
+        "name": "X509_set_pubkey",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "396",
+        "name": "X509_sign",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "397",
+        "name": "X509_REQ_new",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "398",
+        "name": "X509V3_EXT_REQ_add_conf",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "399",
+        "name": "X509_REQ_sign",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "400",
+        "name": "zend_hash_index_find",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "401",
+        "name": "zend_fetch_resource2",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "402",
+        "name": "PEM_read_bio_PUBKEY",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "403",
+        "name": "PEM_read_bio_PrivateKey",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "404",
+        "name": "X509_get_pubkey",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "405",
+        "name": "EVP_PKEY_new",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "406",
+        "name": "BN_new",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "407",
+        "name": "BN_set_word",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "408",
+        "name": "BN_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "409",
+        "name": "RSA_new",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "410",
+        "name": "RSA_generate_key_ex",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "411",
+        "name": "EVP_PKEY_assign",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "412",
+        "name": "DSA_generate_parameters_ex",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "413",
+        "name": "DSA_get_default_method",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "414",
+        "name": "DSA_set_method",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "415",
+        "name": "DSA_generate_key",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "416",
+        "name": "DSA_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "417",
+        "name": "DH_generate_parameters_ex",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "418",
+        "name": "DH_get_default_method",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "419",
+        "name": "DH_set_method",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "420",
+        "name": "DH_check",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "421",
+        "name": "DH_generate_key",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "422",
+        "name": "DH_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "423",
+        "name": "EC_KEY_get0_private_key",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "424",
+        "name": "BN_bin2bn",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "425",
+        "name": "RSA_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "426",
+        "name": "DSA_new",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "427",
+        "name": "DH_new",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "428",
+        "name": "zend_list_insert",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "429",
+        "name": "EVP_PKEY_type",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "430",
+        "name": "EVP_PKEY_get1_EC_KEY",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "431",
+        "name": "PEM_write_bio_ECPrivateKey",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "432",
+        "name": "EVP_PKEY_bits",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "433",
+        "name": "BN_num_bits",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "434",
+        "name": "BN_bn2bin",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "435",
+        "name": "add_assoc_str_ex",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "436",
+        "name": "EC_KEY_get0_group",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "437",
+        "name": "EC_GROUP_get_curve_name",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "438",
+        "name": "OBJ_nid2obj",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "439",
+        "name": "ASN1_OBJECT_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "440",
+        "name": "PKCS5_PBKDF2_HMAC",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "441",
+        "name": "SMIME_read_PKCS7",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "442",
+        "name": "PKCS7_verify",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "443",
+        "name": "PKCS7_get0_signers",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "444",
+        "name": "PKCS7_free",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "445",
+        "name": "PKCS7_encrypt",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "446",
+        "name": "BIO_printf",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "447",
+        "name": "SMIME_write_PKCS7",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "448",
+        "name": "PKCS7_sign",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "449",
+        "name": "PKCS7_decrypt",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "450",
+        "name": "EVP_PKEY_size",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "451",
+        "name": "RSA_private_encrypt",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "452",
+        "name": "RSA_private_decrypt",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "453",
+        "name": "RSA_public_encrypt",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "454",
+        "name": "RSA_public_decrypt",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "455",
+        "name": "ERR_error_string",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "456",
+        "name": "EVP_DigestInit",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "457",
+        "name": "EVP_DigestUpdate",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "458",
+        "name": "EVP_SignFinal",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "459",
+        "name": "EVP_MD_CTX_cleanup",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "460",
+        "name": "EVP_VerifyFinal",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "461",
+        "name": "EVP_get_cipherbyname",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "462",
+        "name": "EVP_rc4",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "463",
+        "name": "EVP_CIPHER_iv_length",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "464",
+        "name": "_safe_emalloc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "465",
+        "name": "EVP_EncryptInit",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "466",
+        "name": "EVP_CIPHER_CTX_cleanup",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "467",
+        "name": "EVP_CIPHER_CTX_block_size",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "468",
+        "name": "EVP_SealInit",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "469",
+        "name": "EVP_EncryptUpdate",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "470",
+        "name": "EVP_SealFinal",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "471",
+        "name": "EVP_OpenInit",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "472",
+        "name": "EVP_DecryptUpdate",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "473",
+        "name": "EVP_OpenFinal",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "474",
+        "name": "add_next_index_string",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "475",
+        "name": "OBJ_NAME_do_all_sorted",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "476",
+        "name": "EVP_MD_size",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "477",
+        "name": "EVP_DigestFinal",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "478",
+        "name": "_ecalloc",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "479",
+        "name": "EVP_CIPHER_key_length",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "480",
+        "name": "EVP_CIPHER_block_size",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "481",
+        "name": "EVP_CIPHER_CTX_set_key_length",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "482",
+        "name": "EVP_EncryptInit_ex",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "483",
+        "name": "EVP_CIPHER_CTX_set_padding",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "484",
+        "name": "EVP_EncryptFinal",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "485",
+        "name": "php_base64_encode",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "486",
+        "name": "php_base64_decode",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "487",
+        "name": "EVP_DecryptInit",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "488",
+        "name": "EVP_DecryptInit_ex",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "489",
+        "name": "EVP_DecryptFinal",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "490",
+        "name": "DH_size",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "491",
+        "name": "DH_compute_key",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "492",
+        "name": "RAND_bytes",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      }
+    ]
+  },
+  {
+    "number": "23",
+    "name": ".strtab",
+    "type": "STRTAB",
+    "address": "0x0000000000000000",
+    "offset": "0x02da78",
+    "size": 9513,
+    "flags": ""
+  }
+]

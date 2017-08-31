@@ -1,0 +1,573 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SunburstChart should match a full data snapshot 1`] = `
+<svg
+  height={450}
+  id="id"
+  width={500}
+>
+  <g
+    transform="translate(250,225)"
+  >
+    <path
+      className="path"
+      d="M4.592425496802574e-15,-75A75,75,0,1,1,-4.592425496802574e-15,75A75,75,0,1,1,4.592425496802574e-15,-75Z"
+      display="none"
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#1f77b4",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M9.184850993605149e-15,-150L4.592425496802574e-15,-75Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#aec7e8",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M9.184850993605149e-15,-150A150,150,0,0,1,5.1053176577285395,-149.91309392982885L2.5526588288642698,-74.95654696491442A75,75,0,0,0,4.592425496802574e-15,-75Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#ff7f0e",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M5.1053176577285395,-149.91309392982885A150,150,0,0,1,10.932377920912787,-149.60107991921163L5.466188960456393,-74.80053995960581A75,75,0,0,0,2.5526588288642698,-74.95654696491442Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#ffbb78",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M10.932377920912787,-149.60107991921163A150,150,0,0,1,17.467605584022937,-148.9794709185162L8.733802792011469,-74.4897354592581A75,75,0,0,0,5.466188960456393,-74.80053995960581Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#2ca02c",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M17.467605584022937,-148.9794709185162A150,150,0,0,1,22.52806880110789,-148.29863828131582L11.264034400553944,-74.14931914065791A75,75,0,0,0,8.733802792011469,-74.4897354592581Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#98df8a",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M22.52806880110789,-148.29863828131582A150,150,0,0,1,56.221047905885705,-139.0654298248278L28.110523952942852,-69.5327149124139A75,75,0,0,0,11.264034400553944,-74.14931914065791Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#d62728",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M56.221047905885705,-139.0654298248278A150,150,0,0,1,73.78592207229181,-130.59723467187843L36.892961036145905,-65.29861733593921A75,75,0,0,0,28.110523952942852,-69.5327149124139Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#ff9896",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M73.78592207229181,-130.59723467187843A150,150,0,0,1,76.31225583584609,-129.13728977040046L38.156127917923044,-64.56864488520023A75,75,0,0,0,36.892961036145905,-65.29861733593921Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#9467bd",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M76.31225583584609,-129.13728977040046A150,150,0,0,1,83.71423304224747,-124.46657055670924L41.857116521123736,-62.23328527835462A75,75,0,0,0,38.156127917923044,-64.56864488520023Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#c5b0d5",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M83.71423304224747,-124.46657055670924A150,150,0,0,1,87.30987781386708,-121.97124757961444L43.65493890693354,-60.98562378980722A75,75,0,0,0,41.857116521123736,-62.23328527835462Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#8c564b",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M87.30987781386708,-121.97124757961444A150,150,0,0,1,107.2202272982803,-104.89910799480188L53.61011364914015,-52.44955399740094A75,75,0,0,0,43.65493890693354,-60.98562378980722Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#c49c94",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M107.2202272982803,-104.89910799480188A150,150,0,0,1,110.48201948998376,-101.4579881991302L55.24100974499188,-50.7289940995651A75,75,0,0,0,53.61011364914015,-52.44955399740094Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#e377c2",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M110.48201948998376,-101.4579881991302A150,150,0,0,1,123.23202391131477,-85.52115693044115L61.616011955657385,-42.760578465220576A75,75,0,0,0,55.24100974499188,-50.7289940995651Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#f7b6d2",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M123.23202391131477,-85.52115693044115A150,150,0,0,1,124.05798575374467,-84.31853989914487L62.02899287687234,-42.15926994957243A75,75,0,0,0,61.616011955657385,-42.760578465220576Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#7f7f7f",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M124.05798575374467,-84.31853989914487A150,150,0,0,1,149.94135873060293,4.193917264401972L74.97067936530146,2.096958632200986A75,75,0,0,0,62.02899287687234,-42.15926994957243Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#c7c7c7",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M149.94135873060293,4.193917264401972A150,150,0,0,1,149.88649338648798,5.83430375471584L74.94324669324399,2.91715187735792A75,75,0,0,0,74.97067936530146,2.096958632200986Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#bcbd22",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M149.88649338648798,5.83430375471584A150,150,0,0,1,149.7003336206805,9.476819817689558L74.85016681034026,4.738409908844779A75,75,0,0,0,74.94324669324399,2.91715187735792Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#dbdb8d",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M149.7003336206805,9.476819817689558A150,150,0,0,1,148.80253181524063,18.91577451161601L74.40126590762031,9.457887255808005A75,75,0,0,0,74.85016681034026,4.738409908844779Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#17becf",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M148.80253181524063,18.91577451161601A150,150,0,0,1,136.7734597122453,61.5875045633675L68.38672985612266,30.79375228168375A75,75,0,0,0,74.40126590762031,9.457887255808005Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#9edae5",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M136.7734597122453,61.5875045633675A150,150,0,0,1,136.16798165275418,62.91486924897167L68.08399082637709,31.457434624485835A75,75,0,0,0,68.38672985612266,30.79375228168375Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#1f77b4",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M136.16798165275418,62.91486924897167A150,150,0,0,1,135.54962209802832,64.23628218601787L67.77481104901416,32.11814109300894A75,75,0,0,0,68.08399082637709,31.457434624485835Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#aec7e8",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M135.54962209802832,64.23628218601787A150,150,0,0,1,134.91843954490042,65.55161836880195L67.45921977245021,32.77580918440098A75,75,0,0,0,67.77481104901416,32.11814109300894Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#ff7f0e",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M134.91843954490042,65.55161836880195A150,150,0,0,1,78.9648244316034,127.5325703594421L39.4824122158017,63.76628517972105A75,75,0,0,0,67.45921977245021,32.77580918440098Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#ffbb78",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M78.9648244316034,127.5325703594421A150,150,0,0,1,77.7206897994222,128.29456098019895L38.8603448997111,64.14728049009948A75,75,0,0,0,39.4824122158017,63.76628517972105Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#2ca02c",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M77.7206897994222,128.29456098019895A150,150,0,0,1,66.20696876992953,134.5980582560446L33.103484384964766,67.2990291280223A75,75,0,0,0,38.8603448997111,64.14728049009948Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#98df8a",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M66.20696876992953,134.5980582560446A150,150,0,0,1,63.57632751225608,135.86040843473992L31.78816375612804,67.93020421736996A75,75,0,0,0,33.103484384964766,67.2990291280223Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#d62728",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M63.57632751225608,135.86040843473992A150,150,0,0,1,62.25192303975039,136.472334477919L31.125961519875194,68.2361672389595A75,75,0,0,0,31.78816375612804,67.93020421736996Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#ff9896",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M62.25192303975039,136.472334477919A150,150,0,0,1,53.5053994908857,140.1326950619331L26.75269974544285,70.06634753096655A75,75,0,0,0,31.125961519875194,68.2361672389595Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#9467bd",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M53.5053994908857,140.1326950619331A150,150,0,0,1,5.834303754715948,149.88649338648798L2.917151877357974,74.94324669324399A75,75,0,0,0,26.75269974544285,70.06634753096655Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#c5b0d5",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M5.834303754715948,149.88649338648798A150,150,0,0,1,-102.26121699800488,-109.73897893677962L-51.13060849900244,-54.86948946838981A75,75,0,0,0,2.917151877357974,74.94324669324399Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#8c564b",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M-102.26121699800488,-109.73897893677962A150,150,0,0,1,-1.6078131593583422e-13,-150L-8.039065796791711e-14,-75A75,75,0,0,0,-51.13060849900244,-54.86948946838981Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#c49c94",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M8.751455632073922,224.82974007973198A225,225,0,0,1,8.478104239328598,224.8402138152939L5.652069492885732,149.8934758768626A150,150,0,0,0,5.834303754715948,149.88649338648798Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#e377c2",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M8.478104239328598,224.8402138152939A225,225,0,0,1,7.931364262509861,224.86016423754427L5.287576175006574,149.90677615836285A150,150,0,0,0,5.652069492885732,149.8934758768626Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#f7b6d2",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M7.931364262509861,224.86016423754427A225,225,0,0,1,6.837746858115706,224.89607648401588L4.558497905410471,149.9307176560106A150,150,0,0,0,5.287576175006574,149.90677615836285Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#7f7f7f",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M6.837746858115706,224.89607648401588A225,225,0,0,1,-20.760380879242675,224.0401896663828L-13.840253919495117,149.3601264442552A150,150,0,0,0,4.558497905410471,149.9307176560106Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#c7c7c7",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M-20.760380879242675,224.0401896663828A225,225,0,0,1,-32.1685229925954,222.68854063124772L-21.4456819950636,148.45902708749847A150,150,0,0,0,-13.840253919495117,149.3601264442552Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#bcbd22",
+          "stroke": "#fff",
+        }
+      }
+    />
+    <path
+      className="path"
+      d="M-32.1685229925954,222.68854063124772A225,225,0,0,1,-70.72448181929754,213.59552352844815L-47.149654546198356,142.3970156856321A150,150,0,0,0,-21.4456819950636,148.45902708749847Z"
+      display={null}
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#dbdb8d",
+          "stroke": "#fff",
+        }
+      }
+    />
+  </g>
+</svg>
+`;
+
+exports[`SunburstChart should match an empty snapshot 1`] = `
+<svg
+  height={0}
+  id="id"
+  width={0}
+>
+  <g
+    transform="translate(0,0)"
+  >
+    <path
+      className="path"
+      d="M0,0Z"
+      display="none"
+      fillRule="evenodd"
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#1f77b4",
+          "stroke": "#fff",
+        }
+      }
+    />
+  </g>
+</svg>
+`;

@@ -1,0 +1,181 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ChartTooltip should match an empty snapshot 1`] = `
+<g
+  transform=""
+>
+  <rect
+    height={54}
+    is={true}
+    rx="5"
+    ry="5"
+    visibility="hidden"
+    width={200}
+  />
+  <polygon
+    is={true}
+    points="10,0  30,0  20,10"
+    transform=""
+    visibility="hidden"
+  />
+  <text
+    is={true}
+    transform="translate(100,17)"
+    visibility="hidden"
+  >
+    <tspan
+      is={true}
+      text-anchor="middle"
+      x="0"
+    >
+      undefined: key
+    </tspan>
+    <tspan
+      dy="25"
+      is={true}
+      text-anchor="middle"
+      x="0"
+    >
+      undefined: value
+    </tspan>
+  </text>
+</g>
+`;
+
+exports[`ChartTooltip should match snapshot with provided data 1`] = `
+<g
+  transform=""
+>
+  <rect
+    class="tooltip-bg"
+    height={54}
+    is={true}
+    rx="5"
+    ry="5"
+    visibility="hidden"
+    width={200}
+  />
+  <polygon
+    class="tooltip-bg"
+    is={true}
+    points="10,0  30,0  20,10"
+    transform=""
+    visibility="hidden"
+  />
+  <text
+    is={true}
+    transform="translate(100,17)"
+    visibility="hidden"
+  >
+    <tspan
+      class="style1"
+      is={true}
+      text-anchor="middle"
+      x="0"
+    >
+      xValue: key
+    </tspan>
+    <tspan
+      class="style2"
+      dy="25"
+      is={true}
+      text-anchor="middle"
+      x="0"
+    >
+      yValue: value
+    </tspan>
+  </text>
+</g>
+`;
+
+exports[`ChartTooltip should match snapshot with provided data and visible 1`] = `
+<g
+  transform="translate(0,40)"
+>
+  <rect
+    class="tooltip-bg"
+    height={54}
+    is={true}
+    rx="5"
+    ry="5"
+    visibility="visible"
+    width={200}
+  />
+  <polygon
+    class="tooltip-bg"
+    is={true}
+    points="10,0  30,0  20,10"
+    transform="translate(80,0) rotate(180,20,0)"
+    visibility="visible"
+  />
+  <text
+    is={true}
+    transform="translate(100,17)"
+    visibility="visible"
+  >
+    <tspan
+      class="style1"
+      is={true}
+      text-anchor="middle"
+      x="0"
+    >
+      xValue: key
+    </tspan>
+    <tspan
+      class="style2"
+      dy="25"
+      is={true}
+      text-anchor="middle"
+      x="0"
+    >
+      yValue: value
+    </tspan>
+  </text>
+</g>
+`;
+
+exports[`ChartTooltip should match snapshot with provided data and visible when y > height 1`] = `
+<g
+  transform="translate(0,126)"
+>
+  <rect
+    class="tooltip-bg"
+    height={54}
+    is={true}
+    rx="5"
+    ry="5"
+    visibility="visible"
+    width={200}
+  />
+  <polygon
+    class="tooltip-bg"
+    is={true}
+    points="10,0  30,0  20,10"
+    transform="translate(80,53.8)"
+    visibility="visible"
+  />
+  <text
+    is={true}
+    transform="translate(100,17)"
+    visibility="visible"
+  >
+    <tspan
+      class="style1"
+      is={true}
+      text-anchor="middle"
+      x="0"
+    >
+      xValue: key
+    </tspan>
+    <tspan
+      class="style2"
+      dy="25"
+      is={true}
+      text-anchor="middle"
+      x="0"
+    >
+      yValue: value
+    </tspan>
+  </text>
+</g>
+`;

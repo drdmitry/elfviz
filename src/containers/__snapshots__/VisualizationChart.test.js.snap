@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`VisualizationChart should match a generic snapshot 1`] = `
+<_class
+  bounds={true}
+  onResize={[Function]}
+/>
+`;
+
+exports[`VisualizationChart should match an empty snapshot 1`] = `
+<div
+  className="text-center alert"
+>
+  No data loaded.
+</div>
+`;

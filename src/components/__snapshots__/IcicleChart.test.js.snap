@@ -1,0 +1,773 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IcicleChart should match a full data snapshot 1`] = `
+<svg
+  height={450}
+  id="id"
+  width={500}
+>
+  <g>
+    <rect
+      className="node"
+      height={148}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#1f77b4",
+        }
+      }
+      width={498}
+      x={1}
+      y={1}
+    />
+    <text
+      className="label"
+      dx="0.35em"
+      transform="translate(250,75)rotate(90)"
+    >
+      ELF
+    </text>
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#aec7e8",
+        }
+      }
+      width={0}
+      x={0.5}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#ff7f0e",
+        }
+      }
+      width={1.7035603715170282}
+      x={1}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#ffbb78",
+        }
+      }
+      width={2.0897832817337463}
+      x={3.703560371517028}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#2ca02c",
+        }
+      }
+      width={2.4760061919504643}
+      x={6.7933436532507745}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#98df8a",
+        }
+      }
+      width={1.7035603715170282}
+      x={10.269349845201239}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#d62728",
+        }
+      }
+      width={17.538699690402474}
+      x={12.972910216718267}
+      y={150}
+    />
+    <text
+      className="label"
+      dx="0.35em"
+      transform="translate(21.742260061919502,224.5)rotate(90)"
+    >
+      .dynsym
+    </text>
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#ff9896",
+        }
+      }
+      width={9.331462848297214}
+      x={31.511609907120743}
+      y={150}
+    />
+    <text
+      className="label"
+      dx="0.35em"
+      transform="translate(36.177341331269346,224.5)rotate(90)"
+    >
+      .dynstr
+    </text>
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#9467bd",
+        }
+      }
+      width={0.5448916408668723}
+      x={41.84307275541796}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#c5b0d5",
+        }
+      }
+      width={3.6346749226006168}
+      x={43.38796439628483}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#8c564b",
+        }
+      }
+      width={1.317337461300312}
+      x={48.022639318885446}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#c49c94",
+        }
+      }
+      width={12.90402476780185}
+      x={50.33997678018576}
+      y={150}
+    />
+    <text
+      className="label"
+      dx="0.35em"
+      transform="translate(56.79198916408669,224.5)rotate(90)"
+    >
+      .rela.plt
+    </text>
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#e377c2",
+        }
+      }
+      width={1.510448916408663}
+      x={64.24400154798761}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#f7b6d2",
+        }
+      }
+      width={9.814241486068113}
+      x={66.75445046439627}
+      y={150}
+    />
+    <text
+      className="label"
+      dx="0.35em"
+      transform="translate(71.66157120743033,224.5)rotate(90)"
+    >
+      .plt
+    </text>
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#7f7f7f",
+        }
+      }
+      width={0}
+      x={77.4549148606811}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#c7c7c7",
+        }
+      }
+      width={48.629643962848306}
+      x={78.34113777089782}
+      y={150}
+    />
+    <text
+      className="label"
+      dx="0.35em"
+      transform="translate(102.65595975232196,224.5)rotate(90)"
+    >
+      .text
+    </text>
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#bcbd22",
+        }
+      }
+      width={0}
+      x={127.90528250773991}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#dbdb8d",
+        }
+      }
+      width={0.9311145510835956}
+      x={128.83978328173373}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#17becf",
+        }
+      }
+      width={4.020897832817326}
+      x={130.77089783281733}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#9edae5",
+        }
+      }
+      width={22.55959752321982}
+      x={135.79179566563465}
+      y={150}
+    />
+    <text
+      className="label"
+      dx="0.35em"
+      transform="translate(147.07159442724458,224.5)rotate(90)"
+    >
+      .eh_frame
+    </text>
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#1f77b4",
+        }
+      }
+      width={0}
+      x={159.2376160990712}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#aec7e8",
+        }
+      }
+      width={0}
+      x={160.0100619195046}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#ff7f0e",
+        }
+      }
+      width={0}
+      x={160.78250773993807}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#ffbb78",
+        }
+      }
+      width={43.80185758513932}
+      x={161.66873065015477}
+      y={150}
+    />
+    <text
+      className="label"
+      dx="0.35em"
+      transform="translate(183.56965944272443,224.5)rotate(90)"
+    >
+      .dynamic
+    </text>
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#2ca02c",
+        }
+      }
+      width={0}
+      x={206.3568111455108}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#98df8a",
+        }
+      }
+      width={5.952012383900922}
+      x={207.24303405572752}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#d62728",
+        }
+      }
+      width={0.5448916408668651}
+      x={214.19504643962844}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#ff9896",
+        }
+      }
+      width={0}
+      x={215.62616099071204}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#9467bd",
+        }
+      }
+      width={4.020897832817326}
+      x={216.51238390092874}
+      y={150}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#c5b0d5",
+        }
+      }
+      width={24.87693498452012}
+      x={221.53328173374607}
+      y={150}
+    />
+    <text
+      className="label"
+      dx="0.35em"
+      transform="translate(233.97174922600612,224.5)rotate(90)"
+    >
+      .shstrtab
+    </text>
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#8c564b",
+        }
+      }
+      width={192.01489938080496}
+      x={247.41021671826618}
+      y={150}
+    />
+    <text
+      className="label"
+      dx="0.35em"
+      transform="translate(343.41766640866865,224.5)rotate(90)"
+    >
+      .symtab
+    </text>
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#c49c94",
+        }
+      }
+      width={58.574883900928796}
+      x={440.42511609907115}
+      y={150}
+    />
+    <text
+      className="label"
+      dx="0.35em"
+      transform="translate(469.7125580495356,224.5)rotate(90)"
+    >
+      .strtab
+    </text>
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#e377c2",
+        }
+      }
+      width={0}
+      x={246.95849458204327}
+      y={300}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#f7b6d2",
+        }
+      }
+      width={0}
+      x={247.10332817337454}
+      y={300}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#7f7f7f",
+        }
+      }
+      width={0}
+      x={247.3929953560371}
+      y={300}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#c7c7c7",
+        }
+      }
+      width={8.752128482972125}
+      x={248.08610681114544}
+      y={300}
+    />
+    <text
+      className="label"
+      dx="0.35em"
+      transform="translate(252.4621710526315,374.5)rotate(90)"
+    >
+      __libc_csu_init
+    </text>
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#bcbd22",
+        }
+      }
+      width={3.0553405572755423}
+      x={257.83823529411757}
+      y={300}
+    />
+  </g>
+  <g>
+    <rect
+      className="node"
+      height={149}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#dbdb8d",
+        }
+      }
+      width={13.000580495356019}
+      x={261.8935758513931}
+      y={300}
+    />
+    <text
+      className="label"
+      dx="0.35em"
+      transform="translate(268.39386609907115,374.5)rotate(90)"
+    >
+      main
+    </text>
+  </g>
+</svg>
+`;
+
+exports[`IcicleChart should match an empty snapshot 1`] = `
+<svg
+  height={0}
+  id="id"
+  width={0}
+>
+  <g>
+    <rect
+      className="node"
+      height={0}
+      onClick={[Function]}
+      onMouseOut={[Function]}
+      onMouseOver={[Function]}
+      style={
+        Object {
+          "fill": "#1f77b4",
+        }
+      }
+      width={0}
+      x={0}
+      y={0}
+    />
+  </g>
+</svg>
+`;

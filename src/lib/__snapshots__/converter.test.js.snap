@@ -1,0 +1,166 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should do conversion and match snapshot on hierarchy of data (from elfSimpleCProgram.json) 1`] = `
+Array [
+  Object {
+    "name": "<none>",
+    "size": 0,
+  },
+  Object {
+    "name": ".interp",
+    "size": 28,
+  },
+  Object {
+    "name": ".note.ABI-tag",
+    "size": 32,
+  },
+  Object {
+    "name": ".note.gnu.build-id",
+    "size": 36,
+  },
+  Object {
+    "name": ".gnu.hash",
+    "size": 28,
+  },
+  Object {
+    "children": Array [],
+    "name": ".dynsym",
+    "size": 192,
+  },
+  Object {
+    "name": ".dynstr",
+    "size": 107,
+  },
+  Object {
+    "name": ".gnu.version",
+    "size": 16,
+  },
+  Object {
+    "name": ".gnu.version_r",
+    "size": 48,
+  },
+  Object {
+    "name": ".rela.dyn",
+    "size": 24,
+  },
+  Object {
+    "name": ".rela.plt",
+    "size": 144,
+  },
+  Object {
+    "name": ".init",
+    "size": 26,
+  },
+  Object {
+    "name": ".plt",
+    "size": 112,
+  },
+  Object {
+    "name": ".plt.got",
+    "size": 8,
+  },
+  Object {
+    "name": ".text",
+    "size": 514,
+  },
+  Object {
+    "name": ".fini",
+    "size": 9,
+  },
+  Object {
+    "name": ".rodata",
+    "size": 20,
+  },
+  Object {
+    "name": ".eh_frame_hdr",
+    "size": 52,
+  },
+  Object {
+    "name": ".eh_frame",
+    "size": 244,
+  },
+  Object {
+    "name": ".init_array",
+    "size": 8,
+  },
+  Object {
+    "name": ".fini_array",
+    "size": 8,
+  },
+  Object {
+    "name": ".jcr",
+    "size": 8,
+  },
+  Object {
+    "name": ".dynamic",
+    "size": 464,
+  },
+  Object {
+    "name": ".got",
+    "size": 8,
+  },
+  Object {
+    "name": ".got.plt",
+    "size": 72,
+  },
+  Object {
+    "name": ".data",
+    "size": 16,
+  },
+  Object {
+    "name": ".bss",
+    "size": 8,
+  },
+  Object {
+    "name": ".comment",
+    "size": 52,
+  },
+  Object {
+    "name": ".shstrtab",
+    "size": 268,
+  },
+  Object {
+    "children": Array [
+      Object {
+        "name": "completed.7585",
+        "size": 1,
+      },
+      Object {
+        "name": "__libc_csu_fini",
+        "size": 2,
+      },
+      Object {
+        "name": "_IO_stdin_used",
+        "size": 4,
+      },
+      Object {
+        "name": "__libc_csu_init",
+        "size": 101,
+      },
+      Object {
+        "name": "_start",
+        "size": 42,
+      },
+      Object {
+        "name": "main",
+        "size": 145,
+      },
+    ],
+    "name": ".symtab",
+    "size": 1704,
+  },
+  Object {
+    "name": ".strtab",
+    "size": 617,
+  },
+]
+`;
+
+exports[`should do conversion and match snapshot on one item data 1`] = `
+Array [
+  Object {
+    "name": "<none>",
+    "size": 0,
+  },
+]
+`;

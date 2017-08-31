@@ -1,0 +1,83 @@
+[
+  {
+    "number": "0",
+    "name": "<none>",
+    "type": "NULL",
+    "address": "0x0000000000000000",
+    "offset": "0x000000",
+    "size": 0,
+    "flags": ""
+  },
+  {
+    "number": "1",
+    "name": ".text",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x000040",
+    "size": 61821,
+    "flags": "AX"
+  },
+  {
+    "number": "2",
+    "name": ".data",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x00f1c0",
+    "size": 168,
+    "flags": "WA"
+  },
+  {
+    "number": "3",
+    "name": ".bss",
+    "type": "NOBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x00f280",
+    "size": 4128,
+    "flags": "WA"
+  },
+  {
+    "number": "4",
+    "name": ".rodata",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x00f280",
+    "size": 16603,
+    "flags": "A"
+  },
+  {
+    "number": "5",
+    "name": ".comment",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x01335b",
+    "size": 53,
+    "flags": "MS"
+  },
+  {
+    "number": "6",
+    "name": ".note.GNU-stack",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x013390",
+    "size": 0,
+    "flags": ""
+  },
+  {
+    "number": "7",
+    "name": ".eh_frame",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x013390",
+    "size": 3192,
+    "flags": "A"
+  },
+  {
+    "number": "8",
+    "name": ".shstrtab",
+    "type": "STRTAB",
+    "address": "0x0000000000000000",
+    "offset": "0x014008",
+    "size": 71,
+    "flags": ""
+  }
+]

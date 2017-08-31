@@ -1,0 +1,1075 @@
+[
+  {
+    "number": "0",
+    "name": "<none>",
+    "type": "NULL",
+    "address": "0x0000000000000000",
+    "offset": "0x000000",
+    "size": 0,
+    "flags": ""
+  },
+  {
+    "number": "1",
+    "name": ".interp",
+    "type": "PROGBITS",
+    "address": "0x0000000000400238",
+    "offset": "0x000238",
+    "size": 28,
+    "flags": "A"
+  },
+  {
+    "number": "2",
+    "name": ".note.ABI-tag",
+    "type": "NOTE",
+    "address": "0x0000000000400254",
+    "offset": "0x000254",
+    "size": 32,
+    "flags": "A"
+  },
+  {
+    "number": "3",
+    "name": ".note.gnu.build-id",
+    "type": "NOTE",
+    "address": "0x0000000000400274",
+    "offset": "0x000274",
+    "size": 36,
+    "flags": "A"
+  },
+  {
+    "number": "4",
+    "name": ".gnu.hash",
+    "type": "GNU_HASH",
+    "address": "0x0000000000400298",
+    "offset": "0x000298",
+    "size": 28,
+    "flags": "A"
+  },
+  {
+    "number": "5",
+    "name": ".dynsym",
+    "type": "DYNSYM",
+    "address": "0x00000000004002b8",
+    "offset": "0x0002b8",
+    "size": 192,
+    "flags": "A",
+    "symbols": [
+      {
+        "number": "0",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "1",
+        "name": "puts@GLIBC_2.2.5 (2)",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "2",
+        "name": "fclose@GLIBC_2.2.5 (2)",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "3",
+        "name": "__stack_chk_fail@GLIBC_2.4 (3)",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "4",
+        "name": "__libc_start_main@GLIBC_2.2.5 (2)",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "5",
+        "name": "fgets@GLIBC_2.2.5 (2)",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "6",
+        "name": "__gmon_start__",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "WEAK",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "7",
+        "name": "fopen@GLIBC_2.2.5 (2)",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      }
+    ]
+  },
+  {
+    "number": "6",
+    "name": ".dynstr",
+    "type": "STRTAB",
+    "address": "0x0000000000400378",
+    "offset": "0x000378",
+    "size": 107,
+    "flags": "A"
+  },
+  {
+    "number": "7",
+    "name": ".gnu.version",
+    "type": "VERSYM",
+    "address": "0x00000000004003e4",
+    "offset": "0x0003e4",
+    "size": 16,
+    "flags": "A"
+  },
+  {
+    "number": "8",
+    "name": ".gnu.version_r",
+    "type": "VERNEED",
+    "address": "0x00000000004003f8",
+    "offset": "0x0003f8",
+    "size": 48,
+    "flags": "A"
+  },
+  {
+    "number": "9",
+    "name": ".rela.dyn",
+    "type": "RELA",
+    "address": "0x0000000000400428",
+    "offset": "0x000428",
+    "size": 24,
+    "flags": "A"
+  },
+  {
+    "number": "10",
+    "name": ".rela.plt",
+    "type": "RELA",
+    "address": "0x0000000000400440",
+    "offset": "0x000440",
+    "size": 144,
+    "flags": "AI"
+  },
+  {
+    "number": "11",
+    "name": ".init",
+    "type": "PROGBITS",
+    "address": "0x00000000004004d0",
+    "offset": "0x0004d0",
+    "size": 26,
+    "flags": "AX"
+  },
+  {
+    "number": "12",
+    "name": ".plt",
+    "type": "PROGBITS",
+    "address": "0x00000000004004f0",
+    "offset": "0x0004f0",
+    "size": 112,
+    "flags": "AX"
+  },
+  {
+    "number": "13",
+    "name": ".plt.got",
+    "type": "PROGBITS",
+    "address": "0x0000000000400560",
+    "offset": "0x000560",
+    "size": 8,
+    "flags": "AX"
+  },
+  {
+    "number": "14",
+    "name": ".text",
+    "type": "PROGBITS",
+    "address": "0x0000000000400570",
+    "offset": "0x000570",
+    "size": 514,
+    "flags": "AX"
+  },
+  {
+    "number": "15",
+    "name": ".fini",
+    "type": "PROGBITS",
+    "address": "0x0000000000400774",
+    "offset": "0x000774",
+    "size": 9,
+    "flags": "AX"
+  },
+  {
+    "number": "16",
+    "name": ".rodata",
+    "type": "PROGBITS",
+    "address": "0x0000000000400780",
+    "offset": "0x000780",
+    "size": 20,
+    "flags": "A"
+  },
+  {
+    "number": "17",
+    "name": ".eh_frame_hdr",
+    "type": "PROGBITS",
+    "address": "0x0000000000400794",
+    "offset": "0x000794",
+    "size": 52,
+    "flags": "A"
+  },
+  {
+    "number": "18",
+    "name": ".eh_frame",
+    "type": "PROGBITS",
+    "address": "0x00000000004007c8",
+    "offset": "0x0007c8",
+    "size": 244,
+    "flags": "A"
+  },
+  {
+    "number": "19",
+    "name": ".init_array",
+    "type": "INIT_ARRAY",
+    "address": "0x0000000000600e10",
+    "offset": "0x000e10",
+    "size": 8,
+    "flags": "WA"
+  },
+  {
+    "number": "20",
+    "name": ".fini_array",
+    "type": "FINI_ARRAY",
+    "address": "0x0000000000600e18",
+    "offset": "0x000e18",
+    "size": 8,
+    "flags": "WA"
+  },
+  {
+    "number": "21",
+    "name": ".jcr",
+    "type": "PROGBITS",
+    "address": "0x0000000000600e20",
+    "offset": "0x000e20",
+    "size": 8,
+    "flags": "WA"
+  },
+  {
+    "number": "22",
+    "name": ".dynamic",
+    "type": "DYNAMIC",
+    "address": "0x0000000000600e28",
+    "offset": "0x000e28",
+    "size": 464,
+    "flags": "WA"
+  },
+  {
+    "number": "23",
+    "name": ".got",
+    "type": "PROGBITS",
+    "address": "0x0000000000600ff8",
+    "offset": "0x000ff8",
+    "size": 8,
+    "flags": "WA"
+  },
+  {
+    "number": "24",
+    "name": ".got.plt",
+    "type": "PROGBITS",
+    "address": "0x0000000000601000",
+    "offset": "0x001000",
+    "size": 72,
+    "flags": "WA"
+  },
+  {
+    "number": "25",
+    "name": ".data",
+    "type": "PROGBITS",
+    "address": "0x0000000000601048",
+    "offset": "0x001048",
+    "size": 16,
+    "flags": "WA"
+  },
+  {
+    "number": "26",
+    "name": ".bss",
+    "type": "NOBITS",
+    "address": "0x0000000000601058",
+    "offset": "0x001058",
+    "size": 8,
+    "flags": "WA"
+  },
+  {
+    "number": "27",
+    "name": ".comment",
+    "type": "PROGBITS",
+    "address": "0x0000000000000000",
+    "offset": "0x001058",
+    "size": 52,
+    "flags": "MS"
+  },
+  {
+    "number": "28",
+    "name": ".shstrtab",
+    "type": "STRTAB",
+    "address": "0x0000000000000000",
+    "offset": "0x0019a1",
+    "size": 268,
+    "flags": ""
+  },
+  {
+    "number": "29",
+    "name": ".symtab",
+    "type": "SYMTAB",
+    "address": "0x0000000000000000",
+    "offset": "0x001090",
+    "size": 1704,
+    "flags": "",
+    "symbols": [
+      {
+        "number": "0",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "1",
+        "name": "<none>",
+        "value": "0x0000000000400238",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "1"
+      },
+      {
+        "number": "2",
+        "name": "<none>",
+        "value": "0x0000000000400254",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "2"
+      },
+      {
+        "number": "3",
+        "name": "<none>",
+        "value": "0x0000000000400274",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "3"
+      },
+      {
+        "number": "4",
+        "name": "<none>",
+        "value": "0x0000000000400298",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "4"
+      },
+      {
+        "number": "5",
+        "name": "<none>",
+        "value": "0x00000000004002b8",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "5"
+      },
+      {
+        "number": "6",
+        "name": "<none>",
+        "value": "0x0000000000400378",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "6"
+      },
+      {
+        "number": "7",
+        "name": "<none>",
+        "value": "0x00000000004003e4",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "7"
+      },
+      {
+        "number": "8",
+        "name": "<none>",
+        "value": "0x00000000004003f8",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "8"
+      },
+      {
+        "number": "9",
+        "name": "<none>",
+        "value": "0x0000000000400428",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "9"
+      },
+      {
+        "number": "10",
+        "name": "<none>",
+        "value": "0x0000000000400440",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "10"
+      },
+      {
+        "number": "11",
+        "name": "<none>",
+        "value": "0x00000000004004d0",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      },
+      {
+        "number": "12",
+        "name": "<none>",
+        "value": "0x00000000004004f0",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "12"
+      },
+      {
+        "number": "13",
+        "name": "<none>",
+        "value": "0x0000000000400560",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "13"
+      },
+      {
+        "number": "14",
+        "name": "<none>",
+        "value": "0x0000000000400570",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "14"
+      },
+      {
+        "number": "15",
+        "name": "<none>",
+        "value": "0x0000000000400774",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "15"
+      },
+      {
+        "number": "16",
+        "name": "<none>",
+        "value": "0x0000000000400780",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "16"
+      },
+      {
+        "number": "17",
+        "name": "<none>",
+        "value": "0x0000000000400794",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "18",
+        "name": "<none>",
+        "value": "0x00000000004007c8",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "19",
+        "name": "<none>",
+        "value": "0x0000000000600e10",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "19"
+      },
+      {
+        "number": "20",
+        "name": "<none>",
+        "value": "0x0000000000600e18",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "20"
+      },
+      {
+        "number": "21",
+        "name": "<none>",
+        "value": "0x0000000000600e20",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "21"
+      },
+      {
+        "number": "22",
+        "name": "<none>",
+        "value": "0x0000000000600e28",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "22"
+      },
+      {
+        "number": "23",
+        "name": "<none>",
+        "value": "0x0000000000600ff8",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "23"
+      },
+      {
+        "number": "24",
+        "name": "<none>",
+        "value": "0x0000000000601000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "24"
+      },
+      {
+        "number": "25",
+        "name": "<none>",
+        "value": "0x0000000000601048",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "25"
+      },
+      {
+        "number": "26",
+        "name": "<none>",
+        "value": "0x0000000000601058",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "27",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "SECTION",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "27"
+      },
+      {
+        "number": "28",
+        "name": "crtstuff.c",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FILE",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "29",
+        "name": "__JCR_LIST__",
+        "value": "0x0000000000600e20",
+        "size": 0,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "21"
+      },
+      {
+        "number": "30",
+        "name": "deregister_tm_clones",
+        "value": "0x00000000004005a0",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "14"
+      },
+      {
+        "number": "31",
+        "name": "register_tm_clones",
+        "value": "0x00000000004005e0",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "14"
+      },
+      {
+        "number": "32",
+        "name": "__do_global_dtors_aux",
+        "value": "0x0000000000400620",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "14"
+      },
+      {
+        "number": "33",
+        "name": "completed.7585",
+        "value": "0x0000000000601058",
+        "size": 1,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "34",
+        "name": "__do_global_dtors_aux_fini_array_entry",
+        "value": "0x0000000000600e18",
+        "size": 0,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "20"
+      },
+      {
+        "number": "35",
+        "name": "frame_dummy",
+        "value": "0x0000000000400640",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "14"
+      },
+      {
+        "number": "36",
+        "name": "__frame_dummy_init_array_entry",
+        "value": "0x0000000000600e10",
+        "size": 0,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "19"
+      },
+      {
+        "number": "37",
+        "name": "test.c",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FILE",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "38",
+        "name": "crtstuff.c",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FILE",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "39",
+        "name": "__FRAME_END__",
+        "value": "0x00000000004008b8",
+        "size": 0,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "18"
+      },
+      {
+        "number": "40",
+        "name": "__JCR_END__",
+        "value": "0x0000000000600e20",
+        "size": 0,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "21"
+      },
+      {
+        "number": "41",
+        "name": "<none>",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FILE",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "ABS"
+      },
+      {
+        "number": "42",
+        "name": "__init_array_end",
+        "value": "0x0000000000600e18",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "19"
+      },
+      {
+        "number": "43",
+        "name": "_DYNAMIC",
+        "value": "0x0000000000600e28",
+        "size": 0,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "22"
+      },
+      {
+        "number": "44",
+        "name": "__init_array_start",
+        "value": "0x0000000000600e10",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "19"
+      },
+      {
+        "number": "45",
+        "name": "__GNU_EH_FRAME_HDR",
+        "value": "0x0000000000400794",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "17"
+      },
+      {
+        "number": "46",
+        "name": "_GLOBAL_OFFSET_TABLE_",
+        "value": "0x0000000000601000",
+        "size": 0,
+        "type": "OBJECT",
+        "bind": "LOCAL",
+        "vis": "DEFAULT",
+        "index": "24"
+      },
+      {
+        "number": "47",
+        "name": "__libc_csu_fini",
+        "value": "0x0000000000400770",
+        "size": 2,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "14"
+      },
+      {
+        "number": "48",
+        "name": "_ITM_deregisterTMCloneTable",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "WEAK",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "49",
+        "name": "data_start",
+        "value": "0x0000000000601048",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "WEAK",
+        "vis": "DEFAULT",
+        "index": "25"
+      },
+      {
+        "number": "50",
+        "name": "puts@@GLIBC_2.2.5",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "51",
+        "name": "_edata",
+        "value": "0x0000000000601058",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "25"
+      },
+      {
+        "number": "52",
+        "name": "fclose@@GLIBC_2.2.5",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "53",
+        "name": "_fini",
+        "value": "0x0000000000400774",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "15"
+      },
+      {
+        "number": "54",
+        "name": "__stack_chk_fail@@GLIBC_2.4",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "55",
+        "name": "__libc_start_main@@GLIBC_2.2.5",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "56",
+        "name": "fgets@@GLIBC_2.2.5",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "57",
+        "name": "__data_start",
+        "value": "0x0000000000601048",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "25"
+      },
+      {
+        "number": "58",
+        "name": "__gmon_start__",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "WEAK",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "59",
+        "name": "__dso_handle",
+        "value": "0x0000000000601050",
+        "size": 0,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "25"
+      },
+      {
+        "number": "60",
+        "name": "_IO_stdin_used",
+        "value": "0x0000000000400780",
+        "size": 4,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "16"
+      },
+      {
+        "number": "61",
+        "name": "__libc_csu_init",
+        "value": "0x0000000000400700",
+        "size": 101,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "14"
+      },
+      {
+        "number": "62",
+        "name": "_end",
+        "value": "0x0000000000601060",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "63",
+        "name": "_start",
+        "value": "0x0000000000400570",
+        "size": 42,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "14"
+      },
+      {
+        "number": "64",
+        "name": "__bss_start",
+        "value": "0x0000000000601058",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "26"
+      },
+      {
+        "number": "65",
+        "name": "main",
+        "value": "0x0000000000400666",
+        "size": 145,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "14"
+      },
+      {
+        "number": "66",
+        "name": "fopen@@GLIBC_2.2.5",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "67",
+        "name": "_Jv_RegisterClasses",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "WEAK",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "68",
+        "name": "__TMC_END__",
+        "value": "0x0000000000601058",
+        "size": 0,
+        "type": "OBJECT",
+        "bind": "GLOBAL",
+        "vis": "HIDDEN",
+        "index": "25"
+      },
+      {
+        "number": "69",
+        "name": "_ITM_registerTMCloneTable",
+        "value": "0x0000000000000000",
+        "size": 0,
+        "type": "NOTYPE",
+        "bind": "WEAK",
+        "vis": "DEFAULT",
+        "index": "UND"
+      },
+      {
+        "number": "70",
+        "name": "_init",
+        "value": "0x00000000004004d0",
+        "size": 0,
+        "type": "FUNC",
+        "bind": "GLOBAL",
+        "vis": "DEFAULT",
+        "index": "11"
+      }
+    ]
+  },
+  {
+    "number": "30",
+    "name": ".strtab",
+    "type": "STRTAB",
+    "address": "0x0000000000000000",
+    "offset": "0x001738",
+    "size": 617,
+    "flags": ""
+  }
+]

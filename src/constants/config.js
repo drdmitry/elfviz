@@ -1,0 +1,4 @@
+// height of the visualization chart (svg)
+export const height = 450;
+
+export const qrcode = 'data:image/jpeg;base64,iVBORw0KGgoAAAANSUhEUgAAAXIAAAFyAQMAAADS6sNKAAAABlBMVEX///8AAABVwtN+AAABpElEQVR4nO2a0Y2EMAxELVEAJdE6JVEAUpbYniQb0N3fnQbNfHiBPPOD4zjOmkmSJEmS9D8qqTOubKvG1vMaWjG2i+fl4+YCrqvlQqvZqvvuTh0Rz8nXz+5j22HNLPEsAkX8K/gaCh4UMfNN/Kv4QMNEPhf/Bt5/2lg3v+Z/8Qx8KoEvgzHxvPzo2dZri8rsZ4ln4D0UosAutQpzs0fRXZDexfPyUVYf+TgNprqZeG4+J/jagmKIDHuox8Qz8rlBLjCez9cZFU/IGwowj4dsdSGfOzA5iafiazz0AEgnhEc0rcVT89mgRgAso8m3iaflR8BaKOR+2Z4knogfp3qrwnpT8xYP4rn4+YApluqWz2sOEE/M+94Jq3S2N813yeWxHhPPxXvFZYYCe9hUNX6SeCa+tz2m/VTqWIp4Yn7yjKDo7c17v0s8FY/vXs+G+8z3Kgz9LvHMfNysJyY9zhMzHm75QTwZj//zYKpjP1W+Zr74F/BYqvOMEau5+DfwSZXmfrRR8cS8/6CBObiP6V08LZ9qQEFk+Ivu/U/xVLwkSZIkSX+pDyPI6zwnAxz3AAAAAElFTkSuQmCC';

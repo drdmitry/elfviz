@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FileInformation should match a snapshot with file info 1`] = `
+<h5>
+  test file
+   
+  12345
+   bytes
+</h5>
+`;
