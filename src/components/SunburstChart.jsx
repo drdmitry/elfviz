@@ -3,7 +3,8 @@ import PropTypes from 'prop-types';
 
 import { arc } from 'd3-shape';
 import { hierarchy, partition } from 'd3-hierarchy';
-import { scaleLinear, scaleOrdinal, schemeCategory20 } from 'd3-scale';
+import { scaleLinear, scaleOrdinal } from 'd3-scale';
+import { schemeCategory10 } from 'd3-scale-chromatic';
 
 import ChartTooltip from './ChartTooltip';
 
@@ -17,7 +18,7 @@ class SunburstChart extends Component {
       },
     };
 
-    this.color = scaleOrdinal(schemeCategory20);
+    this.color = scaleOrdinal(schemeCategory10);
     this.scaleX = scaleLinear().domain([0, 360]).range([0, 2 * Math.PI]);
   };
 

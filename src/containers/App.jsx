@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import cx from 'classnames';
 import * as FileSaver from 'file-saver';
 
 import files from '../constants/sampleFiles';
@@ -55,7 +54,7 @@ class App extends Component {
   onClickDownloadSample(name, jsonData) {
     // console.log('data', name, jsonData);
     const data = JSON.stringify(jsonData, null, 2);
-    FileSaver.saveAs(new Blob([data], { type: "application/json" }), name + '.json');
+    FileSaver.saveAs(new Blob([data], { type: 'application/json' }), name + '.json');
   }
 
   showQRCode(visible, event) {

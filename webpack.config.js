@@ -1,14 +1,14 @@
 const path = require('path');
 const webpack = require('webpack');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const APP_DIR = path.resolve(__dirname, 'src');
 const BUILD_DIR = path.resolve(__dirname, 'dist');
 
-const CleanWebpackPluginConfig = new CleanWebpackPlugin([
-  'dist/**',
-]);
+const CleanWebpackPluginConfig = new CleanWebpackPlugin({
+  cleanOnceBeforeBuildPatterns: 'dist/**',
+});
 
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './src/index.html',
@@ -31,8 +31,9 @@ const config = {
       },
       {
         test: /\.json$/,
-        include: APP_DIR,
+        include: path.join(APP_DIR, 'data'),
         loader: 'json-loader',
+        type: 'javascript/auto',
         exclude: /node_modules/,
         options: {
           name: '[name].[ext]',
