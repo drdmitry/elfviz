@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import { hierarchy, partition } from 'd3-hierarchy';
-import { scaleLinear, scaleOrdinal, schemeCategory20 } from 'd3-scale';
+import { scaleLinear, scaleOrdinal } from 'd3-scale';
+import { schemeCategory10 } from 'd3-scale-chromatic';
 
 import ChartTooltip from './ChartTooltip';
 
@@ -16,7 +17,7 @@ class IcicleChart extends Component {
       },
     };
 
-    this.color = scaleOrdinal(schemeCategory20);
+    this.color = scaleOrdinal(schemeCategory10);
     this.initializeScale(props);
   };
 
