@@ -1,7 +1,5 @@
 # ELF Data Structure Visualization
 
-Online demo available at http://elfviz.conversiontools.io/
-
 Web application for visualization of the ELF files data structure (Sections, Symbols)
 
 Sample files can be downloaded directly from the website (4 sample JSON files).
