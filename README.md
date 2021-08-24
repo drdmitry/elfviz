@@ -84,6 +84,6 @@ As a result elf.json will be created, which could be uploaded to the website for
 
 ## Created by
 
-Dmitry Fedotov <dmitry.fedotov@gmail.com>
+Dmitry Fedotov
 
 August 2017
